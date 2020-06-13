@@ -137,13 +137,13 @@ body.lock {
 }
 @media (max-width: 991.98px) {
 	.container {
-		max-width: 880px;
+		max-width: 750px;
 	}
 }
 @media (max-width: 767.98px) {
 	.container {
 		max-width: none;
-		padding: 0 10px;
+		padding: 0 15px;
 	}
 }
 
@@ -873,7 +873,7 @@ body.ie .ibg img {
 @media (max-width: 767px) {
 	.header {
 		position: fixed;
-		height: 50px;
+		height: 60px;
 		background-color: #000000;
 	}
 }
@@ -988,7 +988,7 @@ body.ie .ibg img {
 		top: 0;
 		left: 0;
 		width: 100%;
-		height: 50px;
+		height: 60px;
 	}
 	.menu__body.active {
 		opacity: 1;
@@ -1226,6 +1226,7 @@ body.ie .ibg img {
 .content__text {
 	font-family: "nomad";
 	font-size: 18px;
-	text-align: center;
-	line-height: 1.5;
+	text-align: justify;
+	line-height: 1.6;
+	text-indent: 30px;
 }
