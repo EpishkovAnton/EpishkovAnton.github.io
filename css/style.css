@@ -1292,23 +1292,5 @@ body.ie .ibg img {
 	font-family: "nomad";
 	margin: 0px 0px 10px 10px;
 	color: #737070;
-	position: relative;
-	cursor: pointer;
-	line-height: 1;
-	text-decoration: none;
-}
-.item__more:after {
-	display: block;
-	position: absolute;
-	left: 0;
-	width: 0;
-	height: 1px;
-	background-color: #737070;
-	content: "";
-	-webkit-transition: width 0.3s ease-out;
-	-o-transition: width 0.3s ease-out;
-	transition: width 0.3s ease-out;
-}
-.item__more:hover:after, .item__more:focus:after {
-	width: 36%;
+	text-decoration: underline;
 }
