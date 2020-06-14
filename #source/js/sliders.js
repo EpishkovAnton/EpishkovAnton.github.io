@@ -1,17 +1,32 @@
-//SLIDERS
-if ($('.conception__bosdy').length > 0) {
-	$('.conception__body').slick({
-		responsive: [{
-			breakpoint: 9999,
-			settings: 'unslick'
-		}, {
-			breakpoint: 768,
-			settings: {
-				slidesToShow: 1,
-			}
-		}]
-	});
-}
+/* $(window).on("load resize", function () {
+	var width = $(document).width();
+
+	if (width > 768) {
+		$('.conception__body').slick('unslick');
+	} else {
+		$('.conception__body').not('.slick-initialized').slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			infinite: true,
+		});
+	}
+}); */
+
+/* $(window).on("load resize", function () {
+	var width = $(document).width();
+
+	if (width > 768) {
+		$('.conception__body').slick('unslick');
+	} else {
+		$('.conception__body').not('.slick-initialized').slick({
+			slidesToShow: 1,
+			infinite: true,
+			arrows: true,
+		});
+	}
+}); */
+
+
 
 
 

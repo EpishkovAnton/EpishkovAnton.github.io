@@ -1243,7 +1243,7 @@ body.ie .ibg img {
 }
 
 .content {
-	padding: 50px 0px 70px 0px;
+	padding: 70px 0px 70px 0px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1275,7 +1275,7 @@ body.ie .ibg img {
 
 .conception {
 	color: #737070;
-	margin: 50px 0px 0px 0px;
+	padding: 70px 0px 0px 0px;
 }
 .conception__tittle {
 	font-family: "nomad";
@@ -1298,18 +1298,10 @@ body.ie .ibg img {
 }
 .conception__item {
 	width: 320px;
-	height: 500px;
+	min-height: 500px;
 	-webkit-box-shadow: 0 0 4px #999;
 	        box-shadow: 0 0 4px #999;
 	margin: 20px 30px;
-}
-@media (max-width: 991px) {
-	.conception__item {
-		width: 315px;
-	}
-}
-
-.item {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1318,6 +1310,12 @@ body.ie .ibg img {
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 }
+@media (max-width: 991px) {
+	.conception__item {
+		width: 315px;
+	}
+}
+
 .item__img {
 	padding: 150px;
 	margin: 0px 0px 20px 0px;
