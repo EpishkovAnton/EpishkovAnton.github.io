@@ -177,6 +177,11 @@ body {
 }
 
 .scroll {
+
+	@media (max-width:1024px) {
+		display: none;
+	}
+
 	@media (max-width:767px) {
 		display: none;
 	}
@@ -235,7 +240,7 @@ body {
 		font-family: 'nomad';
 
 		@media (max-width:767px) {
-			font-size: 30px;
+			font-size: 27px;
 		}
 	}
 
@@ -263,7 +268,7 @@ body {
 	&__tittle {
 		font-family: 'nomad';
 		text-align: center;
-		font-size: 30px;
+		font-size: 27px;
 		text-transform: uppercase;
 
 	}
@@ -280,6 +285,10 @@ body {
 		height: 500px;
 		box-shadow: 0 0 4px #999;
 		margin: 20px 30px;
+
+		@media (max-width:991px) {
+			width: 315px;
+		}
 	}
 }
 
@@ -302,6 +311,19 @@ body {
 			-o-transform: scale(1.02);
 		}
 
+		@media (max-width:767px) {
+			-moz-transition: none;
+			-o-transition: none;
+			-webkit-transition: none;
+
+			&:hover {
+				-webkit-transform: none;
+				-moz-transform: none;
+				-o-transform: none;
+			}
+		}
+
+
 	}
 
 	&__tittle {
@@ -315,6 +337,7 @@ body {
 		font-family: 'nomad';
 		margin: 0px 10px 0px 10px;
 		flex: 1 0 auto;
+		font-size: 15px;
 
 	}
 
@@ -323,6 +346,7 @@ body {
 		margin: 0px 0px 10px 10px;
 		color: #737070;
 		text-decoration: underline;
+		font-size: 15px;
 
 
 
@@ -334,6 +358,8 @@ body {
 }
 
 .ibg {}
+
+
 
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================

@@ -16,7 +16,6 @@
 	&__row {
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
 
 	}
 
@@ -26,6 +25,12 @@
 		width: 200px;
 		margin: 0px 50px 0px 0px;
 		left: 0;
+
+		@media (max-width:991px) {
+			height: 30px;
+			width: 150px;
+			margin: 0px 20px 0px 0px;
+		}
 
 		@media (max-width:767px) {
 			position: absolute;
@@ -45,7 +50,9 @@
 	&__menu {}
 }
 
-.container {}
+.container {
+	position: relative;
+}
 
 .icon-menu {
 	display: none;
@@ -143,6 +150,8 @@
 		font-size: 20px;
 		text-transform: uppercase;
 
+
+
 		@media (max-width:767px) {
 			flex-direction: column;
 			text-align: center;
@@ -150,6 +159,16 @@
 
 		li {
 			margin: 0px 100px 0px 0px;
+
+			@media (max-width:1182px) {
+				margin: 0px 45px 0px 0px;
+			}
+
+			@media (max-width:991px) {
+				font-size: 16px;
+				margin: 0px 30px 0px 0px;
+
+			}
 
 			@media (max-width:767px) {
 				flex-direction: column;
@@ -172,7 +191,7 @@
 		font-family: 'nomad';
 
 		@media (max-width:767px) {
-			font-size: 30px;
+			font-size: 25px;
 		}
 	}
 }
@@ -180,11 +199,16 @@
 .menu {
 
 	&__spollers {
+		position: absolute;
 		color: white;
 		font-family: 'nomad';
 		font-size: 20px;
 		right: 15px;
 		cursor: pointer;
+
+		@media (max-width:1182px) {
+			font-size: 16px;
+		}
 
 		@media (max-width:767px) {
 			font-size: 20px;
@@ -195,8 +219,16 @@
 }
 
 .spollers {
-	@media (max-width:994px) {
-		font-size: 18px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+
+	@media (max-width:1182px) {
+		font-size: 20px;
+	}
+
+	@media (max-width:991px) {
+		font-size: 16px;
 	}
 
 	&__item {}

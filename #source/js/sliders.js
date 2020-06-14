@@ -1,24 +1,21 @@
 //SLIDERS
-if($('.mainslider').length>0){
-	$('.mainslider').slick({
-		//autoplay: true,
-		//infinite: false,
-		dots: true,
-		arrows: false,
-		accessibility:false,
-		slidesToShow:1,
-		autoplaySpeed: 3000,
-		//asNavFor:'',
-		//appendDots:
-		//appendArrows:$('.mainslider-arrows .container'),
-		nextArrow:'<button type="button" class="slick-next"></button>',
-		prevArrow:'<button type="button" class="slick-prev"></button>',
+if ($('.conception__bosdy').length > 0) {
+	$('.conception__body').slick({
 		responsive: [{
+			breakpoint: 9999,
+			settings: 'unslick'
+		}, {
 			breakpoint: 768,
-			settings: {}
+			settings: {
+				slidesToShow: 1,
+			}
 		}]
 	});
 }
+
+
+
+
 /*
 
 
