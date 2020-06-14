@@ -1253,10 +1253,9 @@ body.ie .ibg img {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	margin: 0px -30px;
 }
 .conception__item {
-	width: 345px;
+	width: 320px;
 	height: 500px;
 	-webkit-box-shadow: 0 0 4px #999;
 	        box-shadow: 0 0 4px #999;
@@ -1275,6 +1274,14 @@ body.ie .ibg img {
 .item__img {
 	padding: 150px;
 	margin: 0px 0px 20px 0px;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+}
+.item__img:hover {
+	-webkit-transform: scale(1.02);
+	-moz-transform: scale(1.02);
+	-o-transform: scale(1.02);
 }
 .item__tittle {
 	font-family: "nomad";
