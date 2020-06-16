@@ -231,18 +231,31 @@
 		font-size: 16px;
 	}
 
-	&__item {}
+	&__item {
+		color: white;
+	}
 
 	&__ru {
 		display: none;
+		color: white;
 	}
+
 }
 
 .slollers {
-	&__tittle {}
+	&__tittle {
+		color: white;
+	}
+
+
 }
 
-.spoller {}
+.spoller {
+	&.active {
+		margin: 0px 10px 0px 0px;
+
+	}
+}
 
 //====================================================================================================
 /*

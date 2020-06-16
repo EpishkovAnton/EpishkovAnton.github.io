@@ -155,23 +155,23 @@ body {
 		justify-content: center;
 		align-items: center;
 		position: absolute;
-		top: 75%;
-		right: 250px;
-		animation: mouse 2s infinite linear alternate;
+		top: 85%;
+		right: 50%;
+		animation: mouse 1.4s infinite linear alternate;
 		cursor: pointer;
 	}
 
 	@keyframes mouse {
 		0% {
-			top: 70%;
+			top: 85%;
 		}
 
 		50% {
-			top: 75%;
+			top: 87%;
 		}
 
 		100% {
-			top: 80%
+			top: 89%
 		}
 	}
 }
@@ -187,8 +187,8 @@ body {
 	}
 
 	&__mouse {
-		width: 30px;
-		height: 45px;
+		width: 20px;
+		height: 20px;
 
 		img {
 			width: 100%;
@@ -196,7 +196,15 @@ body {
 		}
 	}
 
-	&__arrow {}
+	&__arrow {
+		margin: 5px 0px 0px 0px;
+		width: 30px;
+		height: 30px;
+
+		img {
+			width: 100%;
+		}
+	}
 }
 
 
@@ -357,8 +365,6 @@ body {
 
 	}
 }
-
-.ibg {}
 
 
 

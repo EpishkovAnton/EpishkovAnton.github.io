@@ -1102,8 +1102,20 @@ body.ie .ibg img {
 		font-size: 16px;
 	}
 }
+.spollers__item {
+	color: white;
+}
 .spollers__ru {
 	display: none;
+	color: white;
+}
+
+.slollers__tittle {
+	color: white;
+}
+
+.spoller.active {
+	margin: 0px 10px 0px 0px;
 }
 
 /*
@@ -1176,32 +1188,32 @@ body.ie .ibg img {
 	    -ms-flex-align: center;
 	        align-items: center;
 	position: absolute;
-	top: 75%;
-	right: 250px;
-	-webkit-animation: mouse 2s infinite linear alternate;
-	        animation: mouse 2s infinite linear alternate;
+	top: 85%;
+	right: 50%;
+	-webkit-animation: mouse 1.4s infinite linear alternate;
+	        animation: mouse 1.4s infinite linear alternate;
 	cursor: pointer;
 }
 @-webkit-keyframes mouse {
 	0% {
-		top: 70%;
+		top: 85%;
 	}
 	50% {
-		top: 75%;
+		top: 87%;
 	}
 	100% {
-		top: 80%;
+		top: 89%;
 	}
 }
 @keyframes mouse {
 	0% {
-		top: 70%;
+		top: 85%;
 	}
 	50% {
-		top: 75%;
+		top: 87%;
 	}
 	100% {
-		top: 80%;
+		top: 89%;
 	}
 }
 
@@ -1216,12 +1228,21 @@ body.ie .ibg img {
 	}
 }
 .scroll__mouse {
-	width: 30px;
-	height: 45px;
+	width: 20px;
+	height: 20px;
 }
 .scroll__mouse img {
 	width: 100%;
 }
+.scroll__arrow {
+	margin: 5px 0px 0px 0px;
+	width: 30px;
+	height: 30px;
+}
+.scroll__arrow img {
+	width: 100%;
+}
+
 .slogan {
 	position: absolute;
 	left: 50%;

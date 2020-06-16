@@ -4,6 +4,10 @@
 //@prepros-append jq-end.js
 //@prepros-append sliders.js
 
+
+
+
+
 $('.goto').click(function () {
     var el = $(this).attr('href').replace('#', '');
     var offset = 0;
