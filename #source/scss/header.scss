@@ -10,7 +10,14 @@
 	@media (max-width:767px) {
 		position: fixed;
 		height: 60px;
-		background-color: #000000;
+		@include anim(1s, 0s);
+
+
+
+		&.active {
+			background-color: #000000;
+
+		}
 	}
 
 	&__row {

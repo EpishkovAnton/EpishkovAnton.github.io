@@ -874,6 +874,11 @@ body.ie .ibg img {
 	.header {
 		position: fixed;
 		height: 60px;
+		-webkit-transition: all 1s ease 0s;
+		-o-transition: all 1s ease 0s;
+		transition: all 1s ease 0s;
+	}
+	.header.active {
 		background-color: #000000;
 	}
 }
@@ -1389,6 +1394,11 @@ body.ie .ibg img {
 	height: 30px;
 	bottom: 40px;
 	right: 40px;
+}
+@media (max-width: 767px) {
+	.pageup {
+		display: none;
+	}
 }
 .pageup img {
 	width: 100%;

@@ -337,9 +337,33 @@ $(window).scroll(function () {
 	}
 });
 
+
+
 $('.pageup').click(function () {
 	$("html, body").animate({
 		scrollTop: 0
 	}, 600);
 	return false;
 });
+
+$('.goto').click(function () {
+	var el = $(this).attr('href').replace('#', '');
+	var offset = 0;
+	$('body,html').animate({
+		scrollTop: $('.' + el).offset().top + offset
+	}, 600, function () {});
+
+	if ($('.header__burger').hasClass('active')) {
+		$('.header__burger,.header__menu').removeClass('active');
+		$('body').removeClass('lock');
+	}
+	return false;
+});
+
+$(window).scroll(function () {
+	if ($(this).scrollTop() > 1) {
+		$('.header').addClass('active');
+	} else {
+		$('.header').removeClass('active');
+	}
+})
