@@ -328,3 +328,18 @@ function tip() {
 }
 
 new WOW().init();
+
+$(window).scroll(function () {
+	if ($(this).scrollTop() > 300) {
+		$('.pageup').fadeIn();
+	} else {
+		$('.pageup').fadeOut();
+	}
+});
+
+$('.pageup').click(function () {
+	$("html, body").animate({
+		scrollTop: 0
+	}, 600);
+	return false;
+});

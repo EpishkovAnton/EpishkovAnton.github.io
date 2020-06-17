@@ -367,6 +367,27 @@ body {
 }
 
 
+.pageup {
+	display: block;
+	position: fixed;
+	width: 30px;
+	height: 30px;
+	bottom: 40px;
+	right: 40px;
+
+
+
+	img {
+		@media (max-width:767px) {
+			display: none;
+		}
+
+		width: 100%
+	}
+
+}
+
+
 
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================

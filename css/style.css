@@ -1381,3 +1381,20 @@ body.ie .ibg img {
 	text-decoration: underline;
 	font-size: 15px;
 }
+
+.pageup {
+	display: block;
+	position: fixed;
+	width: 30px;
+	height: 30px;
+	bottom: 40px;
+	right: 40px;
+}
+.pageup img {
+	width: 100%;
+}
+@media (max-width: 767px) {
+	.pageup img {
+		display: none;
+	}
+}
