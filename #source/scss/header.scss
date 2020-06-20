@@ -146,6 +146,13 @@
 				opacity: 1;
 				visibility: visible;
 
+				&:after {
+					content: '';
+					display: none;
+
+
+				}
+
 			}
 		}
 	}

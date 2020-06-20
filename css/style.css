@@ -836,6 +836,7 @@ body.ie .ibg img {
 	transition: all 0.3s ease 0s;
 	position: relative;
 	max-width: 1230px;
+	height: 1000px;
 	margin: 0px auto;
 	background-color: #fff;
 }
@@ -847,7 +848,7 @@ body.ie .ibg img {
 	top: 0px;
 	right: 0px;
 	cursor: pointer;
-	background: url("../img/icons/close.png") 0 0 no-repeat;
+	background: url("/img/icons/close.svg") 0 0 no-repeat;
 }
 
 .popup-video .popup-close {
@@ -1006,6 +1007,10 @@ body.ie .ibg img {
 	.menu__body.active {
 		opacity: 1;
 		visibility: visible;
+	}
+	.menu__body.active:after {
+		content: "";
+		display: none;
 	}
 }
 .menu__list {
