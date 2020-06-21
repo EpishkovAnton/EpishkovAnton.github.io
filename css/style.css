@@ -1431,7 +1431,7 @@ body.ie .ibg img {
 	display: -ms-flexbox;
 	display: flex;
 }
-@media (max-width: 1240px) {
+@media (max-width: 1024px) {
 	.about__row {
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
@@ -1464,7 +1464,17 @@ body.ie .ibg img {
 	font-family: "nomad";
 	font-size: 40px;
 	text-align: center;
-	margin: 50px 0px 20px 0px;
+	margin: 30px 0px 20px 0px;
+}
+@media (max-width: 1226px) {
+	.about__tittle {
+		font-size: 25px;
+	}
+}
+@media (max-width: 1036px) {
+	.about__tittle {
+		margin: 10px 0px 10px 0px;
+	}
 }
 .about__tittle_big {
 	font-family: "nomad";
@@ -1472,10 +1482,30 @@ body.ie .ibg img {
 	margin: 50px 0px 20px 0px;
 	font-size: 40px;
 }
+@media (max-width: 1024px) {
+	.about__tittle_big {
+		margin: 10px 0px 10px 0px;
+	}
+}
+@media (max-width: 1226px) {
+	.about__tittle_big {
+		font-size: 25px;
+	}
+}
 .about__text {
 	font-family: "nomad";
 	color: #737070;
 	font-size: 15px;
 	padding: 0px 25px 0px 25px;
 	line-height: 1.6;
+}
+@media (max-width: 1226px) {
+	.about__text {
+		font-size: 13px;
+	}
+}
+@media (max-width: 1024px) {
+	.about__text {
+		margin-bottom: 10px;
+	}
 }

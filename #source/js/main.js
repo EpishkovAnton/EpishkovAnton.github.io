@@ -3,3 +3,4 @@
 //@prepros-append script.js
 //@prepros-append jq-end.js
 //@prepros-append sliders.js
+//@prepros-append dinadap.js
