@@ -368,12 +368,3 @@ $(window).scroll(function () {
 		$('.header').removeClass('active');
 	}
 });
-
-$(window).scroll(function () {
-	if ($(this).scrollTop() > 1) {
-		$('.header').addClass('active');
-
-	} else {
-		$('.header').removeClass('active');
-	}
-});

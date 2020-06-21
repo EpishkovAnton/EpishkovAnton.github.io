@@ -198,8 +198,9 @@ body {
 
 	&__arrow {
 		margin: 5px 0px 0px 0px;
-		width: 30px;
-		height: 30px;
+		width: 20px;
+		height: 20px;
+		transform: rotate(-90deg);
 
 		img {
 			width: 100%;
@@ -273,13 +274,7 @@ body {
 
 
 
-	&__tittle {
-		font-family: 'nomad';
-		text-align: center;
-		font-size: 27px;
-		text-transform: uppercase;
 
-	}
 
 	&__body {
 		display: flex;
@@ -303,9 +298,6 @@ body {
 }
 
 .item {
-
-
-
 
 	&__img {
 		padding: 150px;
@@ -393,5 +385,85 @@ body {
 
 
 
+
+//</ОСНОВНОЙ БЛОК>====================================================================================================
+
+.about {
+
+
+	&__descr {
+		font-family: 'nomad';
+		color: #737070;
+		font-size: 15px;
+		margin-bottom: 20px;
+		line-height: 1.6;
+
+	}
+
+	&__row {
+		display: flex;
+
+		@media (max-width:1240px) {
+			flex-direction: column;
+
+		}
+	}
+
+	&__column {
+		flex: 0 1 50%;
+
+		&_big {
+			flex: 0 1 50%;
+		}
+	}
+
+	&__item {
+		position: relative;
+		padding: 0px 0px 50% 0px;
+
+
+
+
+
+	}
+
+	&__image {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+
+	}
+
+	&__tittle {
+		font-family: 'nomad';
+		font-size: 40px;
+		text-align: center;
+		margin: 50px 0px 20px 0px;
+
+		&_big {
+			font-family: 'nomad';
+			text-align: center;
+			margin: 50px 0px 20px 0px;
+			font-size: 40px;
+		}
+
+
+
+	}
+
+	&__text {
+		font-family: 'nomad';
+		color: #737070;
+		font-size: 15px;
+		padding: 0px 25px 0px 25px;
+		line-height: 1.6;
+
+
+	}
+}
+
+.ibg {}
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================
