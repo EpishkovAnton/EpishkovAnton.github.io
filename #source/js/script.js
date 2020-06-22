@@ -306,26 +306,7 @@ $('.whouse-content-body').scroll(function(event) {
 */
 
 
-if ($('.t,.tip').length > 0) {
-	tip();
-}
 
-function tip() {
-	$('.t,.tip').webuiPopover({
-		placement: 'top',
-		trigger: 'hover',
-		backdrop: false,
-		//selector:true,
-		animation: 'fade',
-		dismissible: true,
-		padding: false,
-		//hideEmpty: true
-		onShow: function ($element) {},
-		onHide: function ($element) {},
-	}).on('show.webui.popover hide.webui.popover', function (e) {
-		$(this).toggleClass('active');
-	});
-}
 
 new WOW().init();
 
