@@ -7,18 +7,10 @@
 	src: local("☺"), url("/fonts/pfdintextcondpro-medium.woff") format("woff"), url("/fonts/pfdintextcondpro-medium.ttf") format("truetype"), url("/fonts/pfdintextcondpro-medium.svg") format("svg");
 }
 @font-face {
-	font-family: "Mpfdintextcondpro-regular";
+	font-family: "hel";
 	font-weight: normal;
 	font-style: normal;
-	src: url("/fonts/pfdintextcondpro-regular.eot");
-	src: local("☺"), url("/fonts/pfdintextcondpro-regular.woff") format("woff"), url("/fonts/pfdintextcondpro-regular.ttf") format("truetype"), url("/fonts/pfdintextcondpro-regular.svg") format("svg");
-}
-@font-face {
-	font-family: "nomad";
-	font-weight: normal;
-	font-style: normal;
-	src: url("/fonts/Copyright (C) H&Co  typography.com.eot");
-	src: local("☺"), url("/fonts/Copyright (C) H&Co  typography.com.woff") format("woff"), url("/fonts/Copyright (C) H&Co  typography.com.ttf") format("truetype"), url("/fonts/Copyright (C) H&Co  typography.com.svg") format("svg");
+	src: local("☺"), url("/fonts/HelveticaNeueCyr-Thin.woff") format("woff"), url("/fonts/HelveticaNeueCyr-Thin.ttf") format("truetype");
 }
 * {
 	padding: 0px;
@@ -111,10 +103,15 @@ h6 {
 	font-size: inherit;
 }
 
+html {
+	height: 100%;
+}
+
 body {
 	background-color: #eeeeee;
 	color: #000;
 	font-size: 14px;
+	height: 100%;
 }
 body.lock {
 	overflow: hidden;
@@ -122,7 +119,7 @@ body.lock {
 
 .wrapper {
 	width: 100%;
-	min-height: 100%;
+	min-height: 100vh;
 	overflow: hidden;
 }
 .container {
@@ -530,7 +527,7 @@ textarea.input {
 }
 
 .tittle {
-	font-family: "nomad";
+	font-family: "hel";
 	text-align: center;
 	font-size: 27px;
 	text-transform: uppercase;
@@ -1074,7 +1071,7 @@ body.ie .ibg img {
 }
 .menu__link {
 	color: white;
-	font-family: "nomad";
+	font-family: "hel";
 }
 @media (max-width: 767px) {
 	.menu__link {
@@ -1085,7 +1082,7 @@ body.ie .ibg img {
 .menu__spollers {
 	position: absolute;
 	color: white;
-	font-family: "nomad";
+	font-family: "hel";
 	font-size: 20px;
 	right: 15px;
 	cursor: pointer;
@@ -1276,12 +1273,12 @@ body.ie .ibg img {
 .slogan__tittle {
 	color: white;
 	font-size: 40px;
-	font-family: "nomad";
+	font-family: "hel";
 }
 .slogan__text {
 	color: white;
 	font-size: 30px;
-	font-family: "nomad";
+	font-family: "hel";
 }
 
 .content {
@@ -1300,7 +1297,7 @@ body.ie .ibg img {
 	font-size: 30px;
 	text-transform: uppercase;
 	margin: 0px 0px 20px 0px;
-	font-family: "nomad";
+	font-family: "hel";
 }
 @media (max-width: 767px) {
 	.content__tittle {
@@ -1308,7 +1305,7 @@ body.ie .ibg img {
 	}
 }
 .content__text {
-	font-family: "nomad";
+	font-family: "hel";
 	font-size: 18px;
 	text-align: justify;
 	line-height: 1.6;
@@ -1377,12 +1374,12 @@ body.ie .ibg img {
 	}
 }
 .item__tittle {
-	font-family: "nomad";
+	font-family: "hel";
 	font-size: 20px;
 	margin: 0px 0px 10px 10px;
 }
 .item__descr {
-	font-family: "nomad";
+	font-family: "hel";
 	margin: 0px 10px 0px 10px;
 	-webkit-box-flex: 1;
 	    -ms-flex: 1 0 auto;
@@ -1390,7 +1387,7 @@ body.ie .ibg img {
 	font-size: 15px;
 }
 .item__more {
-	font-family: "nomad";
+	font-family: "hel";
 	margin: 0px 0px 10px 10px;
 	color: #737070;
 	text-decoration: underline;
@@ -1420,7 +1417,7 @@ body.ie .ibg img {
 }
 
 .about__descr {
-	font-family: "nomad";
+	font-family: "hel";
 	color: #737070;
 	font-size: 15px;
 	margin-bottom: 20px;
@@ -1469,7 +1466,7 @@ body.ie .ibg img {
 	-o-transform: scale(1.02);
 }
 .about__tittle {
-	font-family: "nomad";
+	font-family: "hel";
 	font-size: 40px;
 	text-align: center;
 	margin: 30px 0px 20px 0px;
@@ -1485,7 +1482,7 @@ body.ie .ibg img {
 	}
 }
 .about__tittle_big {
-	font-family: "nomad";
+	font-family: "hel";
 	text-align: center;
 	margin: 50px 0px 20px 0px;
 	font-size: 40px;
@@ -1501,7 +1498,7 @@ body.ie .ibg img {
 	}
 }
 .about__text {
-	font-family: "nomad";
+	font-family: "hel";
 	color: #737070;
 	font-size: 15px;
 	padding: 0px 25px 0px 25px;
@@ -1523,7 +1520,7 @@ body.ie .ibg img {
 	padding: 70px 0px 0px 0px;
 }
 .concept__tittle {
-	font-family: "nomad";
+	font-family: "hel";
 	font-size: 20px;
 	margin: 0px 0px 10px 10px;
 }
@@ -1585,12 +1582,12 @@ body.ie .ibg img {
 	}
 }
 .item__tittle {
-	font-family: "nomad";
+	font-family: "hel";
 	font-size: 20px;
 	margin: 0px 0px 10px 10px;
 }
 .item__descr {
-	font-family: "nomad";
+	font-family: "hel";
 	margin: 0px 10px 0px 10px;
 	-webkit-box-flex: 1;
 	    -ms-flex: 1 0 auto;
@@ -1598,54 +1595,89 @@ body.ie .ibg img {
 	font-size: 15px;
 }
 .item__more {
-	font-family: "nomad";
+	font-family: "hel";
 	margin: 0px 0px 10px 10px;
 	color: #737070;
 	text-decoration: underline;
 	font-size: 15px;
 }
 
-.item-main-slider {
-	position: relative;
-	padding: 100px 0px 600px 0px;
+.fullscreen {
+	min-height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	background-color: #fff;
 }
-.item-main-slider__content {
-	position: relative;
-	z-index: 1000;
-	color: white;
-	font-size: 20px;
-	font-family: "nomad";
-}
-.item-main-slider__bg {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
+.fullscreen_bg {
+	background: url(/img/hotel4.jpg) center/cover no-repeat fixed;
 }
 
-.main-slider {
+.main-invest {
+	min-height: 100vh;
 	position: relative;
 }
-.main-slider__next {
-	position: absolute;
-	z-index: 11;
-	width: 50px;
-	height: 50px;
-	bottom: 50px;
-	right: 200px;
+.main-invest__bg {
+	width: 100vw;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+	background-color: #080608;
 }
-.main-slider__next img {
+.main-invest__info {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 1 50%;
+	        flex: 0 1 50%;
+	max-width: 50vw;
 	width: 100%;
+	height: 100vh;
+	overflow: hidden;
 }
-.main-slider__prev {
-	position: absolute;
-	z-index: 11;
-	width: 50px;
-	height: 50px;
-	bottom: 50px;
-	right: 100px;
+.main-invest__tittle {
+	font-family: "hel";
+	font-size: 40px;
+	text-align: center;
+	margin: 30px 0px 20px 0px;
+	text-transform: uppercase;
+	color: white;
 }
-.main-slider__prev img {
+.main-invest__txt {
+	font-family: "hel";
+	margin: 0px 10px 0px 10px;
+	font-size: 15px;
+	color: white;
+}
+.main-invest__slider {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 1 50%;
+	        flex: 0 1 50%;
+	max-width: 70vw;
+	position: relative;
+	height: 100vh;
+}
+
+.slider__item {
+	min-height: 100vh;
+	width: 1000px;
+	overflow: hidden;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.slider__item img {
+	height: 100%;
 	width: 100%;
+	display: block;
+	margin: auto;
 }

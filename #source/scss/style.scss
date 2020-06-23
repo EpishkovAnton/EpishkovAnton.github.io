@@ -15,20 +15,15 @@
 	src: local('☺'), url('/fonts/pfdintextcondpro-medium.woff') format('woff'), url('/fonts/pfdintextcondpro-medium.ttf') format('truetype'), url('/fonts/pfdintextcondpro-medium.svg') format('svg');
 }
 
-@font-face {
-	font-family: 'Mpfdintextcondpro-regular';
-	font-weight: normal;
-	font-style: normal;
-	src: url('/fonts/pfdintextcondpro-regular.eot');
-	src: local('☺'), url('/fonts/pfdintextcondpro-regular.woff') format('woff'), url('/fonts/pfdintextcondpro-regular.ttf') format('truetype'), url('/fonts/pfdintextcondpro-regular.svg') format('svg');
-}
+
+
 
 @font-face {
-	font-family: 'nomad';
+	font-family: 'hel';
 	font-weight: normal;
 	font-style: normal;
-	src: url('/fonts/Copyright\ \(C\)\ H&Co\ \ typography.com.eot');
-	src: local('☺'), url('/fonts/Copyright\ \(C\)\ H&Co\ \ typography.com.woff') format('woff'), url('/fonts/Copyright\ \(C\)\ H&Co\ \ typography.com.ttf') format('truetype'), url('/fonts/Copyright\ \(C\)\ H&Co\ \ typography.com.svg') format('svg');
+
+	src: local('☺'), url('/fonts/HelveticaNeueCyr-Thin.woff') format('woff'), url('/fonts/HelveticaNeueCyr-Thin.ttf') format('truetype');
 }
 
 
@@ -55,10 +50,15 @@ $md4: 479.98;
 //<ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>===============================================================================================
 @import "null.scss";
 
+html {
+	height: 100%;
+}
+
 body {
 	background-color: #eeeeee;
 	color: #000;
 	font-size: 14px;
+	height: 100%;
 
 	&.lock {
 		overflow: hidden;
@@ -70,7 +70,7 @@ body {
 //<ОБОЛОЧКА>===========================================================================================================
 .wrapper {
 	width: 100%;
-	min-height: 100%;
+	min-height: 100vh;
 	overflow: hidden;
 
 	&.loaded {}
@@ -220,13 +220,13 @@ body {
 	&__tittle {
 		color: white;
 		font-size: 40px;
-		font-family: 'nomad';
+		font-family: 'hel';
 	}
 
 	&__text {
 		color: white;
 		font-size: 30px;
-		font-family: 'nomad';
+		font-family: 'hel';
 
 	}
 }
@@ -246,7 +246,7 @@ body {
 		font-size: 30px;
 		text-transform: uppercase;
 		margin: 0px 0px 20px 0px;
-		font-family: 'nomad';
+		font-family: 'hel';
 
 		@media (max-width:767px) {
 			font-size: 27px;
@@ -254,7 +254,7 @@ body {
 	}
 
 	&__text {
-		font-family: 'nomad';
+		font-family: 'hel';
 		font-size: 18px;
 		text-align: justify;
 		line-height: 1.6;
@@ -328,14 +328,14 @@ body {
 	}
 
 	&__tittle {
-		font-family: 'nomad';
+		font-family: 'hel';
 		font-size: 20px;
 		margin: 0px 0px 10px 10px;
 
 	}
 
 	&__descr {
-		font-family: 'nomad';
+		font-family: 'hel';
 		margin: 0px 10px 0px 10px;
 		flex: 1 0 auto;
 		font-size: 15px;
@@ -343,7 +343,7 @@ body {
 	}
 
 	&__more {
-		font-family: 'nomad';
+		font-family: 'hel';
 		margin: 0px 0px 10px 10px;
 		color: #737070;
 		text-decoration: underline;
@@ -392,7 +392,7 @@ body {
 
 
 	&__descr {
-		font-family: 'nomad';
+		font-family: 'hel';
 		color: #737070;
 		font-size: 15px;
 		margin-bottom: 20px;
@@ -447,7 +447,7 @@ body {
 	}
 
 	&__tittle {
-		font-family: 'nomad';
+		font-family: 'hel';
 		font-size: 40px;
 		text-align: center;
 		margin: 30px 0px 20px 0px;
@@ -462,7 +462,7 @@ body {
 		}
 
 		&_big {
-			font-family: 'nomad';
+			font-family: 'hel';
 			text-align: center;
 			margin: 50px 0px 20px 0px;
 			font-size: 40px;
@@ -487,7 +487,7 @@ body {
 
 
 	&__text {
-		font-family: 'nomad';
+		font-family: 'hel';
 		color: #737070;
 		font-size: 15px;
 		padding: 0px 25px 0px 25px;
@@ -520,7 +520,7 @@ body {
 	padding: 70px 0px 0px 0px;
 
 	&__tittle {
-		font-family: 'nomad';
+		font-family: 'hel';
 		font-size: 20px;
 		margin: 0px 0px 10px 10px;
 
@@ -582,14 +582,14 @@ body {
 	}
 
 	&__tittle {
-		font-family: 'nomad';
+		font-family: 'hel';
 		font-size: 20px;
 		margin: 0px 0px 10px 10px;
 
 	}
 
 	&__descr {
-		font-family: 'nomad';
+		font-family: 'hel';
 		margin: 0px 10px 0px 10px;
 		flex: 1 0 auto;
 		font-size: 15px;
@@ -597,7 +597,7 @@ body {
 	}
 
 	&__more {
-		font-family: 'nomad';
+		font-family: 'hel';
 		margin: 0px 0px 10px 10px;
 		color: #737070;
 		text-decoration: underline;
@@ -615,73 +615,88 @@ body {
 //</ОСНОВНОЙ БЛОК>====================================================================================================
 
 
-.main-slider {
+.fullscreen {
+	min-height: 100vh;
+	display: flex;
+	background-color: #fff;
+
+	&_bg {
+		background: url(/img/hotel4.jpg) center / cover no-repeat fixed;
+	}
+}
+
+
+
+
+.main-invest {
+	min-height: 100vh;
+	position: relative;
+
+	&__bg {
+		width: 100vw;
+		display: flex;
+		position: relative;
+		background-color: rgb(8, 6, 8);
+	}
+
+	&__info {
+		flex: 0 1 50%;
+		max-width: 50vw;
+		width: 100%;
+		height: 100vh;
+		overflow: hidden;
+
+
+
+	}
+
+	&__tittle {
+		font-family: 'hel';
+		font-size: 40px;
+		text-align: center;
+		margin: 30px 0px 20px 0px;
+		text-transform: uppercase;
+		color: white;
+	}
+
+	&__txt {
+		font-family: 'hel';
+		margin: 0px 10px 0px 10px;
+		font-size: 15px;
+		color: white;
+	}
+
+	&__slider {
+		flex: 0 1 50%;
+		max-width: 70vw;
+		position: relative;
+		height: 100vh;
+
+
+	}
+}
+
+
+.slider {
 
 	&__body {}
 
-	&__item {}
-
-	&__control {}
-}
-
-.item-main-slider {
-	position: relative;
-	padding: 100px 0px 600px 0px;
-
-	&__content {
-		position: relative;
-		z-index: 1000;
-		color: white;
-		font-size: 20px;
-		font-family: 'nomad';
-
-	}
-
-	&__text {}
-
-	&__bg {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-
-	}
-}
-
-.ibg {}
-
-
-.main-slider {
-	position: relative;
-
-
-	&__control {}
-
-	&__next {
-		position: absolute;
-		z-index: 11;
-		width: 50px;
-		height: 50px;
-		bottom: 50px;
-		right: 200px;
+	&__item {
+		min-height: 100vh;
+		width: 1000px;
+		overflow: hidden;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
 
 		img {
+			height: 100%;
 			width: 100%;
-		}
-	}
-
-	&__prev {
-		position: absolute;
-		z-index: 11;
-		width: 50px;
-		height: 50px;
-		bottom: 50px;
-
-		right: 100px;
-
-		img {
-			width: 100%;
+			display: block;
+			margin: auto;
 		}
 	}
 }
+
+.a {}
