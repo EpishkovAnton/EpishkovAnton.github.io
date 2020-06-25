@@ -216,6 +216,7 @@ body.ie {
 .slick-slider {
 	position: relative;
 
+
 	.slick-track,
 	.slick-list {
 		-webkit-transform: translate3d(0, 0, 0);
@@ -229,12 +230,15 @@ body.ie {
 		position: relative;
 		overflow: hidden;
 		width: 100%;
+
+
 	}
 
 	.slick-track {
 		position: relative;
 		width: 100%;
 		@include flexbox();
+
 	}
 
 	.slick-slide {

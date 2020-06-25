@@ -615,7 +615,7 @@ body {
 //</ОСНОВНОЙ БЛОК>====================================================================================================
 
 
-.fullscreen {
+/* .fullscreen {
 	min-height: 100vh;
 	display: flex;
 	background-color: #fff;
@@ -623,80 +623,118 @@ body {
 	&_bg {
 		background: url(/img/hotel4.jpg) center / cover no-repeat fixed;
 	}
-}
+} */
 
-
-
-
-.main-invest {
-	min-height: 100vh;
-	position: relative;
-
-	&__bg {
-		width: 100vw;
-		display: flex;
-		position: relative;
-		background-color: rgb(8, 6, 8);
-	}
-
-	&__info {
-		flex: 0 1 50%;
-		max-width: 50vw;
-		width: 100%;
-		height: 100vh;
-		overflow: hidden;
-
-
-
-	}
-
-	&__tittle {
-		font-family: 'hel';
-		font-size: 40px;
-		text-align: center;
-		margin: 30px 0px 20px 0px;
-		text-transform: uppercase;
-		color: white;
-	}
-
-	&__txt {
-		font-family: 'hel';
-		margin: 0px 10px 0px 10px;
-		font-size: 15px;
-		color: white;
-	}
-
-	&__slider {
-		flex: 0 1 50%;
-		max-width: 70vw;
-		position: relative;
-		height: 100vh;
-
-
-	}
-}
-
-
-.slider {
+.main-slider {
 
 	&__body {}
 
-	&__item {
-		min-height: 100vh;
-		width: 1000px;
-		overflow: hidden;
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
+	&__item {}
 
-		img {
-			height: 100%;
-			width: 100%;
-			display: block;
-			margin: auto;
-		}
-	}
+	&__control {}
 }
 
-.a {}
+.item-main-slider {
+	text-align: center;
+	position: relative;
+	padding: 300px 0px 300px 0px;
+
+	&__content {
+		position: relative;
+		z-index: 1;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__bg {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+	}
+
+	&__text {
+		margin: 0px auto 0 auto;
+		color: #ffffff;
+		font-family: "hel";
+		font-size: 25px;
+		font-weight: 400;
+		line-height: calc(25/15);
+		flex: 1 1 auto;
+
+
+	}
+
+
+}
+
+.container {
+	height: 100%;
+
+}
+
+.tittle {
+	text-align: center;
+
+	&__item {
+		color: #bb9c66;
+		font-family: "Ceremonious One";
+		font-size: 40px;
+		font-weight: 400;
+		line-height: 25px;
+		margin: 0px 0px 20px/40px * 1em 0px;
+	}
+
+	&__main {
+		color: black;
+		font-family: "PF Din Text Cond Pro";
+		font-size: 35px;
+		font-weight: 400;
+		line-height: 35px;
+		text-transform: uppercase;
+		letter-spacing: 5.25px;
+
+		&_w {
+			color: #ffffff;
+		}
+	}
+
+
+}
+
+.main-slider {
+	position: relative;
+
+
+	&__control {
+		position: absolute;
+		z-index: 10;
+		width: 50px;
+		height: 50px;
+		bottom: 100px;
+		left: 100px;
+		display: flex;
+	}
+
+	&__next {
+		background: url(/img/icons/p-left.svg) 0 0 no-repeat;
+		position: relative;
+		z-index: 11;
+		width: 100px;
+		height: 100px;
+	}
+
+	&__prev {
+		background: url(/img/icons/p-left.svg) 0 0 no-repeat;
+		position: relative;
+		z-index: 11;
+		width: 100px;
+		height: 100px;
+		transform: rotate(180deg);
+
+
+	}
+}

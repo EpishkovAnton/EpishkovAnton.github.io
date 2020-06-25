@@ -23,6 +23,9 @@
 	&__row {
 		display: flex;
 		align-items: center;
+		margin: 30px 0px 0px 0px;
+		justify-content: space-between;
+		align-items: center;
 
 	}
 
@@ -213,7 +216,6 @@
 .menu {
 
 	&__spollers {
-		position: absolute;
 		color: white;
 		font-family: 'hel';
 		font-size: 20px;
@@ -233,15 +235,18 @@
 }
 
 .spollers {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
+
 
 	@media (max-width:1182px) {
 		font-size: 20px;
 	}
 
 	@media (max-width:991px) {
+		font-size: 16px;
+	}
+
+	@media (max-width:767px) {
+		position: absolute;
 		font-size: 16px;
 	}
 
