@@ -136,7 +136,10 @@ textarea {
 
 	&.focus {}
 
-	&.err {}
+	&.err {
+		border: 1px solid red;
+
+	}
 }
 
 textarea.input {

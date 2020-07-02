@@ -33,7 +33,7 @@
 					<ul class="menu__list">
 						<li><a href="#about" class="menu__link goto">О нас</a></li>
 						<li><a href="#concept" class="menu__link goto">Концепции продуктов</a></li>
-						<li><a href="#main-slider" class="menu__link goto">Для инвесторов</a></li>
+						<li><a href="#about" class="menu__link goto">Для инвесторов</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -53,7 +53,7 @@
 				<div class="main-screen__img ibg">
 					<img src="img/full.jpg" alt="">
 				</div>
-				<a href="#about" class="main-screen__scroll scroll">
+				<a href="#concept" class="main-screen__scroll scroll">
 					<div class=" scroll__arrow">
 						<img src="/img/icons/p-left.svg" alt="">
 					</div>
@@ -406,15 +406,16 @@
 		<div class="footer__info">
 			<form action="#" class="popup-form form">
 				<div class="form-input">
-					<input autocomplete="off" type="text" name="form[]" data-value="Ваше имя" class="input" />
+					<input autocomplete="off" type="text" name="form[input.phone]" data-value="Ваше имя"
+						class="input req" />
 				</div>
 				<div class="form-input">
 					<input autocomplete="off" type="text" name="form[]" data-value="Ваш E-mail"
 						class="input req email" />
 				</div>
 				<div class="form-input">
-					<input autocomplete="off" type="text" name="form[]" data-value="Ваш номер телефона"
-						class="input req" />
+					<input autocomplete="off" type="tel" name="form[]" data-value="Ваш номер телефона"
+						class="input phone req" />
 				</div>
 				<div class="form-button">
 					<button type="submit" class="form__btn btn fw">Отправить</button>
@@ -424,7 +425,7 @@
 
 		</div>
 		<div class="footer__logo">
-			<img src="/img/NOMAD white transparent.png" alt="" class="f">
+			<img src="img/NOMAD white transparent.png" alt="" class="f">
 		</div>
 		<div class="footer__social social">
 			<a href="#" class="social__item">

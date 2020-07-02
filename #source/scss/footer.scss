@@ -80,18 +80,29 @@
 .icon-facebook {
     color: #000;
     font-size: 30px;
+
+    &:hover {
+        color: #3b5998;
+    }
 }
 
 .icon-twitter {
     color: #000;
     font-size: 30px;
 
+    &:hover {
+        color: #00acee;
+    }
 
 }
 
 .icon-instagram {
     color: #000;
     font-size: 30px;
+
+    &:hover {
+        color: #8c23b6;
+    }
 
 
 }

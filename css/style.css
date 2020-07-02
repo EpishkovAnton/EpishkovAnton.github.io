@@ -255,6 +255,10 @@ textarea {
 	display: block;
 	padding: 0px 20px;
 }
+.input.err {
+	border: 1px solid red;
+}
+
 textarea.input {
 	resize: none;
 	padding: 0px 0px;
@@ -1255,15 +1259,24 @@ body.ie .ibg img {
 	color: #000;
 	font-size: 30px;
 }
+.icon-facebook:hover {
+	color: #3b5998;
+}
 
 .icon-twitter {
 	color: #000;
 	font-size: 30px;
 }
+.icon-twitter:hover {
+	color: #00acee;
+}
 
 .icon-instagram {
 	color: #000;
 	font-size: 30px;
+}
+.icon-instagram:hover {
+	color: #8c23b6;
 }
 
 .form {
