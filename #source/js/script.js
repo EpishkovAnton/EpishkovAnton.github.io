@@ -369,3 +369,32 @@ for (let i of document.querySelectorAll(".about__number")) {
 		}
 	});
 }
+
+
+
+$(document).ready(function () {
+	$('form').submit(function (e) {
+		e.preventDefault();
+		$.ajax({
+			type: 'POST',
+			url: '/mailer/smart.php',
+			data: $(this).serialaize()
+
+		}).done(function () {
+			$(this).find("input").val("");
+
+
+			$("form").trigger("reset");
+
+
+
+		});
+		return false;
+	});
+});
+
+$(window).on('load', function () {
+
+	$("a[rel='m_PageScroll2id']").mPageScroll2id();
+	$('.main-sreen').vide('/video/nature.mp4');
+})

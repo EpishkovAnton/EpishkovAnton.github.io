@@ -32,7 +32,7 @@
 				<nav class="menu__body">
 					<ul class="menu__list">
 						<li><a href="#about" class="menu__link goto">О нас</a></li>
-						<li><a href="#concept" class="menu__link goto">Концепции продуктов</a></li>
+						<li><a href="#concept"  class="menu__link goto">Концепции продуктов</a></li>
 						<li><a href="#about" class="menu__link goto">Для инвесторов</a></li>
 					</ul>
 				</nav>
@@ -50,12 +50,12 @@
 
 	</div>
 </header>			<div class="main-sreen">
-				<div class="main-screen__img ibg">
+				<!-- 				<div class="main-screen__img ibg">
 					<img src="img/full.jpg" alt="">
-				</div>
-				<a href="#concept" class="main-screen__scroll scroll">
+				</div> -->
+				<a href="#concept" rel='m_PageScroll2id' class="main-screen__scroll scroll">
 					<div class=" scroll__arrow">
-						<img src="/img/icons/p-left.svg" alt="">
+						<img src="img/icons/p-left.svg" alt="">
 					</div>
 				</a>
 			</div>
@@ -218,7 +218,7 @@
 	</section> -->
 
 
-			<section class="concept">
+			<section class="concept" id="concept">
 				<div class="container">
 					<div class="concept__tittle">
 						Являясь профессионалами в гостиничном бизнесе с международным опытом работы в сетевых отелях
@@ -232,7 +232,7 @@
 						<div class="concept__item item wow animate__animated animate__fadeIn " data-wow-duration="
 							1.5s" data-wow-offset="300"">
 							<a href="" class=" item__img ibg">
-							<img src="/img/hotel1.jpg" alt="">
+							<img src="img/hotel1.jpg" alt="">
 							</a>
 							<div class="item__tittle">КОНЦЕПЦИЯ</div>
 							<div class="item__descr">Концепция курортов Nomad Resorts заключается в том, что наши гости
@@ -243,7 +243,7 @@
 						<div class="concept__item item wow animate__animated animate__fadeIn" data-wow-duration="
 							1.5s" data-wow-offset="300"">
 							<div class=" item__img ibg">
-							<img src="/img/hotel4.jpg" alt="">
+							<img src="img/hotel4.jpg" alt="">
 						</div>
 						<div class="item__tittle">ФИЛОСОФИЯ</div>
 						<div class="item__descr">Наша философия заключается в создании для наших гостей ощущения
@@ -343,7 +343,7 @@
 					<div class="about__item wow animate__animated animate__fadeInUp" data-wow-duration="
 				1.5s" data-wow-offset="300"">
 					<div class=" about__image ibg">
-						<img src="/img/inv1.jpg" alt="">
+						<img src="img/inv1.jpg" alt="">
 					</div>
 				</div>
 			</div>
@@ -354,7 +354,7 @@
 				<div class="about__item wow animate__animated animate__fadeInUp" data-wow-duration="
 				1.5s" data-wow-offset="300"">>
 				<div class=" about__image ibg">
-					<img src="/img/hotel3.jpg" alt="">
+					<img src="img/hotel3.jpg" alt="">
 				</div>
 			</div>
 		</div>
@@ -387,7 +387,7 @@
 				<div class="about__item wow animate__animated animate__fadeInUp" data-wow-duration="
 	1.5s" data-wow-offset="300"">
 		<div class=" about__image ibg">
-					<img src="/img/hotel2.jpg" alt="">
+					<img src="img/hotel2.jpg" alt="">
 				</div>
 			</div>
 		</div>
@@ -406,19 +406,18 @@
 		<div class="footer__info">
 			<form action="#" class="popup-form form">
 				<div class="form-input">
-					<input autocomplete="off" type="text" name="form[input.phone]" data-value="Ваше имя"
-						class="input req" />
+					<input autocomplete="off" type="text" name="name" data-value="Ваше имя" class="input req" />
 				</div>
 				<div class="form-input">
-					<input autocomplete="off" type="text" name="form[]" data-value="Ваш E-mail"
+					<input autocomplete="off" type="text" name="email" data-value="Ваш E-mail"
 						class="input req email" />
 				</div>
 				<div class="form-input">
-					<input autocomplete="off" type="tel" name="form[]" data-value="Ваш номер телефона"
+					<input autocomplete="off" type="tel" name="phone" data-value="Ваш номер телефона"
 						class="input phone req" />
 				</div>
 				<div class="form-button">
-					<button type="submit" class="form__btn btn fw">Отправить</button>
+					<button class="form__btn btn fw">Отправить</button>
 				</div>
 			</form>
 
@@ -446,7 +445,7 @@
 	</div>
 </footer>	</main>
 	<a href="#up" class="pageup">
-		<img src="/img/up.svg" alt="" class="up">
+		<img src="img/up.svg" alt="" class="up">
 	</a>
 
 	</div>
