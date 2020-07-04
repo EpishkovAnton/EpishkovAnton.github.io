@@ -1826,105 +1826,6 @@ body.ie .ibg img {
 		background: url(/img/hotel4.jpg) center / cover no-repeat fixed;
 	}
 } */
-.item-main-slider {
-	text-align: center;
-	position: relative;
-	padding: 100px 0px 200px 0px;
-}
-.item-main-slider__content {
-	position: relative;
-	z-index: 1;
-	height: 100%;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-}
-.item-main-slider__bg {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-}
-.item-main-slider__text {
-	margin: 0px auto 0 auto;
-	color: #ffffff;
-	font-family: "hel";
-	font-size: 25px;
-	font-weight: 400;
-	line-height: calc(25/15);
-	-webkit-box-flex: 1;
-	    -ms-flex: 1 1 auto;
-	        flex: 1 1 auto;
-}
-
-.container {
-	height: 100%;
-}
-
-.tittle {
-	text-align: center;
-}
-.tittle__item {
-	color: #bb9c66;
-	font-family: "Ceremonious One";
-	font-size: 40px;
-	font-weight: 400;
-	line-height: 25px;
-	margin: 0px 0px 0.5em 0px;
-}
-.tittle__main {
-	color: black;
-	font-family: "PF Din Text Cond Pro";
-	font-size: 35px;
-	font-weight: 400;
-	line-height: 35px;
-	text-transform: uppercase;
-	letter-spacing: 5.25px;
-}
-.tittle__main_w {
-	color: #ffffff;
-}
-
-.main-slider {
-	position: relative;
-}
-.main-slider__control {
-	position: absolute;
-	z-index: 10;
-	width: 50px;
-	height: 50px;
-	bottom: 100px;
-	left: 100px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-}
-.main-slider__next {
-	background: url(/img/icons/p-left.svg) 0 0 no-repeat;
-	position: relative;
-	z-index: 11;
-	width: 100px;
-	height: 100px;
-}
-.main-slider__prev {
-	background: url(/img/icons/p-left.svg) 0 0 no-repeat;
-	position: relative;
-	z-index: 11;
-	width: 100px;
-	height: 100px;
-	-webkit-transform: rotate(180deg);
-	    -ms-transform: rotate(180deg);
-	        transform: rotate(180deg);
-}
-
 .video-bg {
 	height: 100vh;
 	width: 100%;
@@ -1956,6 +1857,7 @@ body.ie .ibg img {
 	z-index: 2;
 	color: #ffffff;
 	font-size: 38px;
+	text-align: center;
 }
 .video-bg__content h1 {
 	font-family: "hel";

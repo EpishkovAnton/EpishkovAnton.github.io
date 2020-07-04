@@ -1,4 +1,4 @@
 //@prepros-append slick.min.js
 //@prepros-append jquery.inputmask.bundle.min.js
-//@prepros-append jquery.vide.min.js
+
 //@prepros-append jquery.malihu.PageScroll2id.min.js
