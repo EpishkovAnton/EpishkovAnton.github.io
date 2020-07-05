@@ -9,8 +9,8 @@ if ($('.slider__body').length > 0) {
 		slidesToShow: 1,
 		//asNavFor:'',
 		//appendDots:
-		prevArrow: $('.main-slider__next'),
-		nextArrow: $('.main-slider__prev'),
+		prevArrow: $('.control-slider__arrow_next'),
+		nextArrow: $('.control-slider__arrow_prew'),
 		responsive: [{
 			breakpoint: 768,
 			settings: {}
