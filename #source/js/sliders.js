@@ -1,6 +1,6 @@
 //SLIDERS
-if ($('.slider__body').length > 0) {
-	$('.slider__body').slick({
+if ($('.mainslider').length > 0) {
+	$('.mainslider').slick({
 		autoplay: true,
 		wariableWidth: true,
 		//infinite: false,
