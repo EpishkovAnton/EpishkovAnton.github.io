@@ -314,6 +314,7 @@ body {
 	height: 30px;
 	bottom: 40px;
 	right: 40px;
+	z-index: 100000;
 
 	@media (max-width:767px) {
 		display: none;
