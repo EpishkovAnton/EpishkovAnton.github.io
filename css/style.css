@@ -1660,7 +1660,7 @@ body.ie .ibg img {
 
 .concept {
 	color: #737070;
-	padding: 70px 0px 0px 0px;
+	padding: 100px 0px 100px 0px;
 }
 .concept__tittle {
 	font-family: "hel";
@@ -1889,123 +1889,6 @@ body.ie .ibg img {
 	font-family: "hel";
 }
 
-/* .slider {
-	margin: 70px 0px 0px 0px;
-	height: 100vh;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-
-
-	@media (max-width:1024px) {
-		display: none;
-	}
-
-
-
-
-
-
-
-	&__item {
-		min-width: 100vh;
-		position: relative;
-
-		&:after {
-			content: '';
-
-			width: 100%;
-			height: 100%;
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			background-color: rgba(0, 0, 0, 0.5);
-
-
-		}
-
-
-
-
-		img {
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-		}
-	}
-
-	&___fullscreen {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-	}
-
-	&__full {}
-
-	&__content {
-		color: #ffffff;
-		font-size: 20px;
-		text-align: center;
-		position: absolute;
-		z-index: 1133;
-		top: 50%;
-		left: 50%;
-		font-family: "hel";
-		line-height: 2;
-		transform: translate(-50%, -50%);
-
-		@media (max-width:767px) {
-			font-size: 10px;
-		}
-
-
-
-
-
-	}
-}
-
-
-.slider {
-	position: relative;
-
-	&__control {
-		position: absolute;
-		left: 20%;
-		width: 100px;
-		height: 100px;
-		bottom: 50px;
-		transform: translate(-50%, 50%);
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		z-index: 10;
-
-	}
-}
-
-.control-slider {
-
-	&__arrow {
-		position: relative;
-		z-index: 100;
-		background: url(/img/icons/p-left.svg) 0 0 no-repeat;
-		width: 14px;
-		height: 24px;
-		cursor: pointer;
-		margin: 0px 20px 0px 0px;
-
-		&_prew {}
-
-		&_next {
-			transform: rotate(180deg);
-		}
-	}
-} */
 .mainscreen {
 	min-height: 100vh;
 	position: relative;
@@ -2083,4 +1966,45 @@ body.ie .ibg img {
 	-webkit-transform: rotate(180deg);
 	    -ms-transform: rotate(180deg);
 	        transform: rotate(180deg);
+}
+
+.slider-two__item img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+.gallery {
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+.gallery__tittle::before {
+	content: "";
+	width: 700px;
+	height: 1px;
+	background-color: white;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+.gallery .slick-track {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.gallery .slick-list {
+	overflow: hidden;
+}
+.gallery .slick-arrow {
+	position: absolute;
+	z-index: 10;
+	font-size: 0;
+	width: 17px;
+	height: 30px;
+	top: 50%;
+	-webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	        transform: translateX(-50%);
 }

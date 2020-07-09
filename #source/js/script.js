@@ -307,8 +307,8 @@ $('.whouse-content-body').scroll(function(event) {
 
 
 
-
 new WOW().init();
+
 
 $(window).scroll(function () {
 	if ($(this).scrollTop() > 300) {
@@ -372,26 +372,25 @@ for (let i of document.querySelectorAll(".about__number")) {
 
 
 
-$(document).ready(function () {
-	$('form').submit(function (e) {
-		e.preventDefault();
-		$.ajax({
-			type: 'POST',
-			url: '/mailer/smart.php',
-			data: $(this).serialaize()
 
-		}).done(function () {
-			$(this).find("input").val("");
-
-
-			$("form").trigger("reset");
+$('form').submit(function (e) {
+	e.preventDefault();
+	$.ajax({
+		type: 'POST',
+		url: '/mailer/smart.php',
+		data: $(this).serialize()
+	}).done(function () {
+		$(this).find("input").val("");
 
 
+		$("form").trigger("reset");
 
-		});
-		return false;
+
+
 	});
+	return false;
 });
+
 
 $(window).on('load', function () {
 

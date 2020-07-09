@@ -18,6 +18,25 @@ if ($('.mainslider').length > 0) {
 	});
 }
 
+if ($('.slider-two').length > 0) {
+	$('.slider-two').slick({
+		autoplay: true,
+		wariableWidth: true,
+		//infinite: false,
+		dots: false,
+		accessibility: false,
+		slidesToShow: 1,
+		//asNavFor:'',
+		//appendDots:
+		prevArrow: $('.control-slider__arrow_next'),
+		nextArrow: $('.control-slider__arrow_prew'),
+		responsive: [{
+			breakpoint: 768,
+			settings: {}
+		}]
+	});
+}
+
 //SLIDERS
 if ($('.slider-lots__body').length > 0) {
 	$('.slider-lots__body').slick({
