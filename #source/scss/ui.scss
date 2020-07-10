@@ -261,7 +261,7 @@ body.ie {
 		transform: translate(-50%);
 
 		li {
-			margin-right: 10px;
+			margin-right: 20px;
 			list-style: none;
 			outline: none;
 
@@ -269,7 +269,7 @@ body.ie {
 				font-size: 0;
 				width: 7px;
 				height: 7px;
-				color: #737070;
+				color: white;
 				border-radius: 50%;
 				outline: none;
 			}
@@ -277,7 +277,7 @@ body.ie {
 			&.slick-active {
 				button {
 					background-color: transparent;
-					border: 1px solid #737070;
+					border: 1px solid white;
 					;
 					transition: all 0.9s ease 0s;
 					outline: none;
