@@ -365,7 +365,7 @@ for (let i of document.querySelectorAll(".about__number")) {
 				if (start == end) {
 					clearInterval(interval);
 				}
-			}, 10);
+			}, 300);
 		}
 	});
 }
@@ -373,7 +373,7 @@ for (let i of document.querySelectorAll(".about__number")) {
 
 
 
-$('form').submit(function (e) {
+/* $('form').submit(function (e) {
 	e.preventDefault();
 	$.ajax({
 		type: 'POST',
@@ -389,7 +389,7 @@ $('form').submit(function (e) {
 
 	});
 	return false;
-});
+}); */
 
 
 $(window).on('load', function () {

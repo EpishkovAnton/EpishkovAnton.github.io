@@ -18,18 +18,17 @@ if ($('.mainslider').length > 0) {
 	});
 }
 
-if ($('.slider-two').length > 0) {
-	$('.slider-two').slick({
+if ($('.slidertwo').length > 0) {
+	$('.slidertwo').slick({
 		autoplay: true,
-		wariableWidth: true,
-		//infinite: false,
+		//wariableWidth: true,
+		infinite: true,
 		dots: false,
-		accessibility: false,
+		accessibility: true,
 		slidesToShow: 1,
+		arrows: false,
 		//asNavFor:'',
 		//appendDots:
-		prevArrow: $('.control-slider__arrow_next'),
-		nextArrow: $('.control-slider__arrow_prew'),
 		responsive: [{
 			breakpoint: 768,
 			settings: {}
