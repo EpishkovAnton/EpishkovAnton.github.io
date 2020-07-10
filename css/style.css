@@ -743,6 +743,39 @@ body.ie .ibg img {
 .slick-slider .slick-slide {
 	position: relative;
 }
+.slick-slider .slick-dots {
+	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	bottom: 5px;
+	left: 50%;
+	-webkit-transform: translate(-50%);
+	    -ms-transform: translate(-50%);
+	        transform: translate(-50%);
+}
+.slick-slider .slick-dots li {
+	margin-right: 10px;
+	list-style: none;
+	outline: none;
+}
+.slick-slider .slick-dots li button {
+	font-size: 0;
+	width: 7px;
+	height: 7px;
+	color: #737070;
+	border-radius: 50%;
+	outline: none;
+}
+.slick-slider .slick-dots li.slick-active button {
+	background-color: transparent;
+	border: 1px solid #737070;
+	-webkit-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+	transition: all 0.9s ease 0s;
+	outline: none;
+}
+
 .tab__item {
 	display: none;
 }
@@ -1251,22 +1284,6 @@ body.ie .ibg img {
 	margin: 0px 20px 0px 0px;
 }
 
-.icon-facebook {
-	color: #000;
-	font-size: 30px;
-}
-.icon-facebook:hover {
-	color: #3b5998;
-}
-
-.icon-twitter {
-	color: #000;
-	font-size: 30px;
-}
-.icon-twitter:hover {
-	color: #00acee;
-}
-
 .icon-instagram {
 	color: #000;
 	font-size: 30px;
@@ -1518,29 +1535,6 @@ body.ie .ibg img {
 	font-size: 15px;
 }
 
-.pageup {
-	display: block;
-	position: fixed;
-	width: 30px;
-	height: 30px;
-	bottom: 40px;
-	right: 40px;
-	z-index: 100000;
-}
-@media (max-width: 767px) {
-	.pageup {
-		display: none;
-	}
-}
-.pageup img {
-	width: 100%;
-}
-@media (max-width: 767px) {
-	.pageup img {
-		display: none;
-	}
-}
-
 .about {
 	background-color: black;
 	display: none;
@@ -1682,7 +1676,9 @@ body.ie .ibg img {
 
 .concept {
 	color: #737070;
-	padding: 100px 0px 100px 0px;
+	padding: 100px 0px 20px 0px;
+	min-height: 100vh;
+	position: relative;
 }
 .concept__tittle {
 	font-family: "hel";
@@ -1808,7 +1804,7 @@ body.ie .ibg img {
 	    -ms-flex-align: center;
 	        align-items: center;
 	position: absolute;
-	top: 85%;
+	top: 0;
 	right: 50%;
 	-webkit-animation: mouse 1.4s infinite linear alternate;
 	        animation: mouse 1.4s infinite linear alternate;
@@ -2005,4 +2001,57 @@ body.ie .ibg img {
 	margin: 0 auto;
 	width: 100%;
 	height: 100%;
+}
+
+.pageup {
+	display: block;
+	position: fixed;
+	width: 30px;
+	height: 30px;
+	bottom: 40px;
+	right: 40px;
+	z-index: 100000;
+	-webkit-animation: up 1.4s infinite linear alternate;
+	        animation: up 1.4s infinite linear alternate;
+}
+@-webkit-keyframes up {
+	0% {
+		top: 85%;
+	}
+	50% {
+		top: 87%;
+	}
+	100% {
+		top: 89%;
+	}
+}
+@keyframes up {
+	0% {
+		top: 85%;
+	}
+	50% {
+		top: 87%;
+	}
+	100% {
+		top: 89%;
+	}
+}
+@media (max-width: 767px) {
+	.pageup {
+		display: none;
+	}
+}
+.pageup img {
+	color: #fff;
+	width: 100%;
+}
+@media (max-width: 767px) {
+	.pageup img {
+		display: none;
+	}
+}
+
+.icon-chevrons-up {
+	color: #747070;
+	font-size: 60px;
 }

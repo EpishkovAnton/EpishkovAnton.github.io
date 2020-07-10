@@ -309,30 +309,7 @@ body {
 }
 
 
-.pageup {
-	display: block;
-	position: fixed;
-	width: 30px;
-	height: 30px;
-	bottom: 40px;
-	right: 40px;
-	z-index: 100000;
 
-	@media (max-width:767px) {
-		display: none;
-	}
-
-
-
-	img {
-		@media (max-width:767px) {
-			display: none;
-		}
-
-		width: 100%
-	}
-
-}
 
 
 
@@ -527,7 +504,12 @@ body {
 //</ОСНОВНОЙ БЛОК>====================================================================================================
 .concept {
 	color: #737070;
-	padding: 100px 0px 100px 0px;
+	padding: 100px 0px 20px 0px;
+	min-height: 100vh;
+	position: relative;
+
+
+
 
 
 
@@ -662,7 +644,7 @@ body {
 		justify-content: center;
 		align-items: center;
 		position: absolute;
-		top: 85%;
+		top: 0;
 		right: 50%;
 		animation: mouse 1.4s infinite linear alternate;
 		cursor: pointer;
@@ -888,3 +870,59 @@ body {
 }
 
 .f {}
+
+
+
+.pageup {
+	display: block;
+	position: fixed;
+	width: 30px;
+	height: 30px;
+	bottom: 40px;
+	right: 40px;
+	z-index: 100000;
+	animation: up 1.4s infinite linear alternate;
+
+	@keyframes up {
+		0% {
+			top: 85%;
+		}
+
+		50% {
+			top: 87%;
+		}
+
+		100% {
+			top: 89%
+		}
+	}
+
+
+
+
+	@media (max-width:767px) {
+		display: none;
+	}
+
+
+
+	img {
+		color: #fff;
+
+		@media (max-width:767px) {
+			display: none;
+		}
+
+		width: 100%
+	}
+
+}
+
+
+.icon-chevrons-up {
+	color: rgb(116, 112, 112);
+	font-size: 60px;
+
+
+
+}

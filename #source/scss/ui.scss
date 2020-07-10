@@ -254,11 +254,34 @@ body.ie {
 	}
 
 	.slick-dots {
+		position: absolute;
+		display: flex;
+		bottom: 5px;
+		left: 50%;
+		transform: translate(-50%);
+
 		li {
-			button {}
+			margin-right: 10px;
+			list-style: none;
+			outline: none;
+
+			button {
+				font-size: 0;
+				width: 7px;
+				height: 7px;
+				color: #737070;
+				border-radius: 50%;
+				outline: none;
+			}
 
 			&.slick-active {
-				button {}
+				button {
+					background-color: transparent;
+					border: 1px solid #737070;
+					;
+					transition: all 0.9s ease 0s;
+					outline: none;
+				}
 			}
 		}
 	}

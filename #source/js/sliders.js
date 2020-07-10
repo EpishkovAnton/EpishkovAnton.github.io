@@ -23,7 +23,7 @@ if ($('.slidertwo').length > 0) {
 		autoplay: true,
 		//wariableWidth: true,
 		infinite: true,
-		dots: false,
+		dots: true,
 		accessibility: true,
 		slidesToShow: 1,
 		arrows: false,
