@@ -394,6 +394,12 @@ for (let i of document.querySelectorAll(".about__number")) {
 
 $(window).on('load', function () {
 
-	$("a[rel='m_PageScroll2id']").mPageScroll2id();
+		$("a[rel='m_PageScroll2id']").mPageScroll2id();
 
-})
+	}),
+
+	$(window).on('load', function () {
+
+		$("a[rel='m_PageScroll2ids']").mPageScroll2id();
+
+	})
