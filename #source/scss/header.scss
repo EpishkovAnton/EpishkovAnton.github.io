@@ -11,8 +11,6 @@
 		height: 60px;
 		@include anim(1s, 0s);
 
-
-
 		&.active {
 			background-color: #000000;
 
@@ -159,6 +157,24 @@
 		}
 	}
 
+	&__sliderbig {
+		display: block;
+
+		@media (max-width:767px) {
+			display: none;
+		}
+
+	}
+
+	&__slidersmall {
+		display: none;
+
+		@media (max-width:767px) {
+			display: block;
+		}
+
+	}
+
 	&__list {
 		display: flex;
 		align-items: center;
@@ -197,15 +213,20 @@
 				margin: 0px 0px 0px 0px;
 			}
 		}
+
+
 	}
 
 	&__link {
 		color: white;
 		font-family: 'hel';
 
+
 		@media (max-width:767px) {
 			font-size: 25px;
 		}
+
+
 	}
 }
 
