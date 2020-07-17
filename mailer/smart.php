@@ -18,8 +18,8 @@ $mail->Password = '38gjgeuftd';                           // Наш пароль
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
-$mail->setFrom('kamant1989@yandex.ru', 'Pulse');   // От кого письмо 
-$mail->addAddress('tifevow531@wwmails.com');     // Add a recipient
+$mail->setFrom('kamant1989@yandex.ru', 'NOMAD');   // От кого письмо 
+$mail->addAddress('kam_ant1983@mail.ru');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
