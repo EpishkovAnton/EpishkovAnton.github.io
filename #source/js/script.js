@@ -311,7 +311,7 @@ new WOW().init();
 
 
 $(window).scroll(function () {
-	if ($(this).scrollTop() > 300) {
+	if ($(this).scrollTop() > 2000) {
 		$('.pageup').fadeIn();
 	} else {
 		$('.pageup').fadeOut();

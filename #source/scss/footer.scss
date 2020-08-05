@@ -82,7 +82,7 @@
 .social {
     display: flex;
     justify-content: center;
-    margin: 50px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
     flex: 1 0 auto;
 
     &__item {
@@ -135,6 +135,16 @@
         font-family: "hel";
         padding: 10px;
         font-size: 17px;
+        @include anim(0.8s, 0s);
+
+
+        &:hover {
+            background-color: black;
+            color: white;
+            border: solid 1px white;
+
+
+        }
 
         @media (max-width:767px) {
             margin: 0px 0px 20px 0px;

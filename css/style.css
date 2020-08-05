@@ -1289,7 +1289,7 @@ body.ie .ibg img {
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
-	margin: 50px 0px 0px 0px;
+	margin: 30px 0px 0px 0px;
 	-webkit-box-flex: 1;
 	    -ms-flex: 1 0 auto;
 	        flex: 1 0 auto;
@@ -1349,6 +1349,14 @@ body.ie .ibg img {
 	font-family: "hel";
 	padding: 10px;
 	font-size: 17px;
+	-webkit-transition: all 0.8s ease 0s;
+	-o-transition: all 0.8s ease 0s;
+	transition: all 0.8s ease 0s;
+}
+.form__btn:hover {
+	background-color: black;
+	color: white;
+	border: solid 1px white;
 }
 @media (max-width: 767px) {
 	.form__btn {
@@ -1499,6 +1507,15 @@ body.ie .ibg img {
 	        align-items: center;
 	position: relative;
 }
+.video-bg:after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+}
 .video-bg__scroll {
 	z-index: 10000;
 	display: -webkit-box;
@@ -1594,6 +1611,15 @@ body.ie .ibg img {
 	-o-object-fit: cover;
 	   object-fit: cover;
 }
+.video-bg__full:after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+}
 
 @media (max-width: 767px) {
 	.video-bg img {
@@ -1614,8 +1640,19 @@ body.ie .ibg img {
 	font-size: 36px;
 	text-align: center;
 }
+.video-bg__content:after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+}
 .video-bg__content h1 {
 	font-family: "hel";
+	position: relative;
+	z-index: 3;
 }
 
 .about {

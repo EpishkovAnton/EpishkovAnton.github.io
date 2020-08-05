@@ -224,6 +224,18 @@ body {
 	align-items: center;
 	position: relative;
 
+	&:after {
+		content: '';
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+
+
+
 
 	&__scroll {
 		z-index: 10000;
@@ -294,10 +306,14 @@ body {
 	width: 100%;
 	height: 100vh;
 	object-fit: cover;
+
+
+
 }
 
 
 .video-bg {
+
 	&__full {
 		display: none;
 		position: absolute;
@@ -307,7 +323,19 @@ body {
 		width: 100%;
 		height: 100vh;
 		object-fit: cover;
+
+		&:after {
+			content: '';
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			background-color: rgba(0, 0, 0, 0.6);
+		}
 	}
+
+
 
 }
 
@@ -334,8 +362,20 @@ body {
 	font-size: 36px;
 	text-align: center;
 
+	&:after {
+		content: '';
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+
 	h1 {
 		font-family: "hel";
+		position: relative;
+		z-index: 3;
 
 	}
 }
