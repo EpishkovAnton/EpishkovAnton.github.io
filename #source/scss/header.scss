@@ -125,9 +125,11 @@
 			background-color: rgba(27, 26, 26, 0.9);
 			opacity: 0;
 			visibility: hidden;
-			padding: 150px 0px 0px 0px;
 			@include anim(0.8s, 0s);
 			overflow: auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 
 			&:after {
 				content: '';
