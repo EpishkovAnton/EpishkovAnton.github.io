@@ -4,7 +4,7 @@ if ($('.mainslider').length > 0) {
 		autoplay: true,
 		wariableWidth: true,
 		//infinite: false,
-		dots: false,
+		dots: true,
 		accessibility: false,
 		slidesToShow: 1,
 		//asNavFor:'',
