@@ -391,3 +391,23 @@ $(window).on('load', function () {
 		$("a[rel='m_PageScroll2ids']").mPageScroll2id();
 
 	})
+
+
+
+
+function toggleSlide(item) {
+	$(item).each(function (i) {
+		$(this).on('click', function (e) {
+			e.preventDefault();
+			$('.concept-item__content').eq(i).toggleClass('concept-item__content_active');
+			$('.concept-item__list').eq(i).toggleClass('concept-item__list_active');
+
+		});
+	});
+
+
+
+};
+
+toggleSlide('.concept-item__link');
+toggleSlide('.concept-item__back');
