@@ -1628,7 +1628,7 @@ body.ie .ibg img {
 	background-color: rgba(0, 0, 0, 0.6);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 	.video-bg img {
 		display: block;
 		position: absolute;
@@ -1677,6 +1677,11 @@ body.ie .ibg img {
 	font-size: 20px;
 	margin-bottom: 20px;
 	line-height: 1.6;
+}
+.about__descr_sl {
+	padding: 0px 25px 0px 25px;
+	line-height: none;
+	margin-bottom: 0px;
 }
 .about__row {
 	display: -webkit-box;
@@ -1776,6 +1781,20 @@ body.ie .ibg img {
 	    -ms-flex-pack: center;
 	        justify-content: center;
 }
+.about__num_sl {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.about__block_sl {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
 .about__number {
 	font-size: 30px;
 	text-align: center;
@@ -1784,6 +1803,11 @@ body.ie .ibg img {
 }
 .about__number_sl {
 	font-size: 60px;
+	padding: 0px 25px 0px 25px;
+}
+.about__number_slt {
+	font-size: 60px;
+	padding: 0px 25px 0px 50px;
 }
 .about__descr {
 	font-size: 30px;
@@ -1793,6 +1817,7 @@ body.ie .ibg img {
 }
 .about__descr_sl {
 	font-size: 60px;
+	padding: 0px 25px 0px 25px;
 }
 .about__value {
 	font-size: 20px;
@@ -1802,6 +1827,7 @@ body.ie .ibg img {
 }
 .about__value_sl {
 	font-size: 60px;
+	padding: 0px 25px 0px 25px;
 }
 
 .concept {
@@ -2006,7 +2032,7 @@ body.ie .ibg img {
 .slider {
 	position: relative;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 	.slider {
 		display: none;
 	}
@@ -2107,7 +2133,7 @@ body.ie .ibg img {
 	}
 }
 
-.icon-chevrons-up {
-	color: #747070;
-	font-size: 60px;
+.icon-upload-2 {
+	color: white;
+	font-size: 30px;
 }

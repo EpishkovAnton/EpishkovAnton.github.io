@@ -339,7 +339,7 @@ body {
 
 }
 
-@media (max-width:768px) {
+@media (max-width:1024px) {
 	.video-bg img {
 		display: block;
 		position: absolute;
@@ -398,6 +398,14 @@ body {
 		font-size: 20px;
 		margin-bottom: 20px;
 		line-height: 1.6;
+
+		&_sl {
+			padding: 0px 25px 0px 25px;
+			line-height: none;
+			margin-bottom: 0px;
+
+
+		}
 	}
 
 	&__row {
@@ -495,6 +503,19 @@ body {
 		justify-content: center;
 
 
+		&_sl {
+			flex-direction: column;
+		}
+
+
+	}
+
+	&__block {
+		&_sl {
+			display: flex;
+			align-items: center;
+
+		}
 	}
 
 
@@ -506,6 +527,12 @@ body {
 
 		&_sl {
 			font-size: 60px;
+			padding: 0px 25px 0px 25px;
+		}
+
+		&_slt {
+			font-size: 60px;
+			padding: 0px 25px 0px 50px;
 		}
 
 	}
@@ -518,6 +545,8 @@ body {
 
 		&_sl {
 			font-size: 60px;
+			padding: 0px 25px 0px 25px;
+
 		}
 
 	}
@@ -528,8 +557,11 @@ body {
 		padding: 5px 25px 25px 25px;
 		font-family: 'hel';
 
+
 		&_sl {
 			font-size: 60px;
+			padding: 0px 25px 0px 25px;
+
 		}
 	}
 
@@ -776,7 +808,7 @@ body {
 .slider {
 	position: relative;
 
-	@media (max-width:768px) {
+	@media (max-width:1024px) {
 		display: none;
 	}
 
@@ -878,7 +910,7 @@ body {
 }
 
 
-.icon-chevrons-up {
-	color: rgb(116, 112, 112);
-	font-size: 60px;
+.icon-upload-2 {
+	color: white;
+	font-size: 30px;
 }

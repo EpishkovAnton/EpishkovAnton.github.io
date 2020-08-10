@@ -1,7 +1,7 @@
 //SLIDERS
 if ($('.mainslider').length > 0) {
 	$('.mainslider').slick({
-		autoplay: true,
+		autoplay: false,
 		wariableWidth: true,
 		//infinite: false,
 		dots: true,
