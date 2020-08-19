@@ -1216,7 +1216,6 @@ body.ie .ibg img {
 */
 .footer {
 	background-color: black;
-	min-height: 520px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1817,7 +1816,7 @@ body.ie .ibg img {
 .about__number {
 	font-size: 30px;
 	text-align: center;
-	padding: 0px 0px 5px 53px;
+	padding: 0px 25px 5px 53px;
 	font-family: "hel";
 }
 .about__number_sl {
@@ -1831,6 +1830,10 @@ body.ie .ibg img {
 .about__number_slr {
 	font-size: 30px;
 	padding: 0px 0px 0px 166px;
+}
+.about__number_slk {
+	font-size: 30px;
+	padding: 0px 0px 0px 50px;
 }
 .about__descr {
 	font-size: 30px;
@@ -2176,4 +2179,5 @@ body.ie .ibg img {
 .icon-upload-2 {
 	color: white;
 	font-size: 30px;
+	cursor: pointer;
 }

@@ -525,7 +525,7 @@ body {
 	&__number {
 		font-size: 30px;
 		text-align: center;
-		padding: 0px 0px 5px 53px;
+		padding: 0px 25px 5px 53px;
 		font-family: 'hel';
 
 		&_sl {
@@ -542,6 +542,12 @@ body {
 			font-size: 30px;
 			padding: 0px 0px 0px 166px;
 		}
+
+		&_slk {
+			font-size: 30px;
+			padding: 0px 0px 0px 50px;
+		}
+
 
 	}
 
@@ -945,4 +951,5 @@ body {
 .icon-upload-2 {
 	color: white;
 	font-size: 30px;
+	cursor: pointer;
 }
