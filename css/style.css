@@ -1683,6 +1683,7 @@ body.ie .ibg img {
 	background-color: black;
 	display: none;
 	color: white;
+	padding-top: 53px;
 }
 @media (max-width: 1024px) {
 	.about {
