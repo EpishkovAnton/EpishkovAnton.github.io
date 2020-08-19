@@ -1716,6 +1716,7 @@ body.ie .ibg img {
 	}
 }
 .about__column {
+	padding-bottom: 10px;
 	-webkit-box-flex: 0;
 	    -ms-flex: 0 1 50%;
 	        flex: 0 1 50%;
@@ -1863,7 +1864,7 @@ body.ie .ibg img {
 
 .concept {
 	color: white;
-	padding: 65px 0px 20px 0px;
+	padding: 65px 0px 0px 0px;
 	position: relative;
 	background-color: black;
 }

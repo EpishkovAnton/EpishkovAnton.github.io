@@ -421,6 +421,7 @@ body {
 	}
 
 	&__column {
+		padding-bottom: 10px;
 		flex: 0 1 50%;
 
 		&_big {
@@ -600,7 +601,7 @@ body {
 
 .concept {
 	color: white;
-	padding: 65px 0px 20px 0px;
+	padding: 65px 0px 0px 0px;
 	position: relative;
 	background-color: black;
 
