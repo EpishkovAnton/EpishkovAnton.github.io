@@ -526,7 +526,7 @@ body {
 	&__number {
 		font-size: 30px;
 		text-align: center;
-		padding: 0px 25px 5px 53px;
+		padding: 0px 0px 0px 0px;
 		font-family: 'hel';
 
 		&_sl {
@@ -555,7 +555,7 @@ body {
 	&__descr {
 		font-size: 30px;
 		text-align: center;
-		padding: 5px 0px 0px 25px;
+		padding: 0px 25px 0px 25px;
 		font-family: 'hel';
 
 		&_sl {
@@ -569,14 +569,19 @@ body {
 	&__value {
 		font-size: 20px;
 		text-align: center;
-		padding: 5px 0px 25px 25px;
+		padding: 0px 0px 0px 0px;
 		font-family: 'hel';
 
 
 		&_sl {
 			font-size: 30px;
-			padding: 0px 0px 0px 25px;
+			padding: 0px 0px 0px 15px;
 
+		}
+
+		&_sln {
+			font-size: 30px;
+			padding: 0px 0px 0px 10px;
 		}
 	}
 
@@ -605,6 +610,11 @@ body {
 		font-size: 36px;
 		margin: 0px 0px 10px 10px;
 		text-align: center;
+
+		@media (max-width:768px) {
+			font-size: 25px;
+
+		}
 	}
 
 	&__txt {

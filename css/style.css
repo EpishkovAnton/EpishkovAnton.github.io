@@ -1226,7 +1226,7 @@ body.ie .ibg img {
 .footer__tittle {
 	color: white;
 	text-align: center;
-	font-size: 40px;
+	font-size: 36px;
 	text-transform: uppercase;
 	font-family: "hel";
 	margin-top: 50px;
@@ -1817,7 +1817,7 @@ body.ie .ibg img {
 .about__number {
 	font-size: 30px;
 	text-align: center;
-	padding: 0px 25px 5px 53px;
+	padding: 0px 0px 0px 0px;
 	font-family: "hel";
 }
 .about__number_sl {
@@ -1839,7 +1839,7 @@ body.ie .ibg img {
 .about__descr {
 	font-size: 30px;
 	text-align: center;
-	padding: 5px 0px 0px 25px;
+	padding: 0px 25px 0px 25px;
 	font-family: "hel";
 }
 .about__descr_sl {
@@ -1849,12 +1849,16 @@ body.ie .ibg img {
 .about__value {
 	font-size: 20px;
 	text-align: center;
-	padding: 5px 0px 25px 25px;
+	padding: 0px 0px 0px 0px;
 	font-family: "hel";
 }
 .about__value_sl {
 	font-size: 30px;
-	padding: 0px 0px 0px 25px;
+	padding: 0px 0px 0px 15px;
+}
+.about__value_sln {
+	font-size: 30px;
+	padding: 0px 0px 0px 10px;
 }
 
 .concept {
@@ -1868,6 +1872,11 @@ body.ie .ibg img {
 	font-size: 36px;
 	margin: 0px 0px 10px 10px;
 	text-align: center;
+}
+@media (max-width: 768px) {
+	.concept__tittle {
+		font-size: 25px;
+	}
 }
 .concept__txt {
 	font-family: "hel";
