@@ -1325,9 +1325,27 @@ body.ie .ibg img {
 .icon-instagram {
 	color: #000;
 	font-size: 30px;
+	-webkit-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	transition: all 1s ease-out;
 }
 .icon-instagram:hover {
-	color: #8c23b6;
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
+.icon-facebook {
+	color: #000;
+	font-size: 30px;
+	-webkit-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+}
+.icon-facebook:hover {
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
 }
 
 .form {
@@ -1588,9 +1606,9 @@ body.ie .ibg img {
 	margin: 5px 0px 0px 0px;
 	width: 20px;
 	height: 20px;
-	-webkit-transform: rotate(-90deg);
-	    -ms-transform: rotate(-90deg);
-	        transform: rotate(-90deg);
+	-webkit-transform: rotate(180deg);
+	    -ms-transform: rotate(180deg);
+	        transform: rotate(180deg);
 }
 .video-bg .scroll__arrow img {
 	width: 100%;
@@ -1682,6 +1700,7 @@ body.ie .ibg img {
 	padding: 0px 25px 0px 25px;
 	line-height: none;
 	margin-bottom: 0px;
+	font-size: 10px;
 }
 .about__row {
 	display: -webkit-box;
@@ -1798,36 +1817,40 @@ body.ie .ibg img {
 .about__number {
 	font-size: 30px;
 	text-align: center;
-	padding: 0px 25px 5px 25px;
+	padding: 0px 0px 5px 53px;
 	font-family: "hel";
 }
 .about__number_sl {
-	font-size: 60px;
-	padding: 0px 25px 0px 25px;
+	font-size: 30px;
+	padding: 0px 0px 0px 25px;
 }
 .about__number_slt {
-	font-size: 60px;
-	padding: 0px 25px 0px 50px;
+	font-size: 30px;
+	padding: 0px 0px 0px 15px;
+}
+.about__number_slr {
+	font-size: 30px;
+	padding: 0px 0px 0px 166px;
 }
 .about__descr {
 	font-size: 30px;
 	text-align: center;
-	padding: 5px 25px 0px 25px;
+	padding: 5px 0px 0px 25px;
 	font-family: "hel";
 }
 .about__descr_sl {
-	font-size: 60px;
-	padding: 0px 25px 0px 25px;
+	font-size: 30px;
+	padding: 0px 0px 0px 25px;
 }
 .about__value {
 	font-size: 20px;
 	text-align: center;
-	padding: 5px 25px 25px 25px;
+	padding: 5px 0px 25px 25px;
 	font-family: "hel";
 }
 .about__value_sl {
-	font-size: 60px;
-	padding: 0px 25px 0px 25px;
+	font-size: 30px;
+	padding: 0px 0px 0px 25px;
 }
 
 .concept {
@@ -2005,7 +2028,6 @@ body.ie .ibg img {
 .mainscreen__content {
 	color: #ffffff;
 	font-size: 20px;
-	text-align: center;
 	position: absolute;
 	z-index: 1133;
 	top: 50%;
@@ -2020,6 +2042,24 @@ body.ie .ibg img {
 	.mainscreen__content {
 		font-size: 10px;
 	}
+}
+.mainscreen__content_txt {
+	font-size: 13px;
+	width: 1000px;
+}
+.mainscreen__tittle {
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.mainscreen__text li {
+	list-style: disc;
+	font-size: 18px;
+	line-height: 1.4;
+	margin-top: 20px;
+}
+.mainscreen__item {
+	font-size: 20px;
 }
 .mainscreen__bg {
 	position: absolute;

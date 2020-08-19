@@ -104,11 +104,23 @@
 .icon-instagram {
     color: #000;
     font-size: 30px;
+    transition: all 1s ease-out;
 
     &:hover {
-        color: #8c23b6;
+        transform: scale(1.1);
     }
 
+
+}
+
+.icon-facebook {
+    color: #000;
+    font-size: 30px;
+    transition: all 1s ease-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 
 }
 

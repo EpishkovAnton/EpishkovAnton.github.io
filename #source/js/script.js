@@ -353,7 +353,7 @@ for (let i of document.querySelectorAll(".about__number")) {
 				if (start == end) {
 					clearInterval(interval);
 				}
-			}, 300);
+			}, 100);
 		}
 	});
 }
