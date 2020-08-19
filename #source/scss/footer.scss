@@ -93,7 +93,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        margin: 0px 10px 0px 10px;
+        margin: 0px 10px 0px 0px;
 
     }
 }
@@ -217,6 +217,27 @@
 
 .fw {}
 
+
+.footer {
+
+    &__policy {
+        margin-top: 15px;
+        font-family: "hel";
+        text-align: center;
+
+
+
+        span {
+            color: white;
+
+            a {
+                color: white;
+                text-decoration: underline;
+
+            }
+        }
+    }
+}
 
 //====================================================================================================
 

@@ -784,7 +784,9 @@ body {
 
 .slider-body {}
 
-.mainslider {}
+.mainslider {
+	position: relative;
+}
 
 .mainscreen {
 	min-height: 100vh;
@@ -864,31 +866,36 @@ body {
 
 	&__control {
 		position: absolute;
-		left: 20%;
-		width: 100px;
+		left: 0px;
+		top: 0;
+		width: 100%;
 		height: 100px;
 		bottom: 50px;
-		transform: translate(-50%, 50%);
+		transform: translate(-50%);
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		z-index: 10;
-
+		top: 50%
 	}
 }
 
 .control-slider {
+	position: absolute;
 
 	&__arrow {
-		position: relative;
+		position: absolute;
 		z-index: 100;
-		background: url(/img/icons/p-left.svg) 0 0 no-repeat;
-		width: 14px;
+		background: url(/img/icons/1.svg) 0 0 no-repeat;
+		width: 95%;
 		height: 24px;
 		cursor: pointer;
 		margin: 0px 20px 0px 0px;
+		left: 53%;
 
-		&_prew {}
+		&_prew {
+			margin-right: 10px;
+		}
 
 		&_next {
 			transform: rotate(180deg);

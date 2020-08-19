@@ -1319,7 +1319,7 @@ body.ie .ibg img {
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: row;
 	        flex-direction: row;
-	margin: 0px 10px 0px 10px;
+	margin: 0px 10px 0px 0px;
 }
 
 .icon-instagram {
@@ -1423,6 +1423,19 @@ body.ie .ibg img {
 	.input {
 		font-size: 14px;
 	}
+}
+
+.footer__policy {
+	margin-top: 15px;
+	font-family: "hel";
+	text-align: center;
+}
+.footer__policy span {
+	color: white;
+}
+.footer__policy span a {
+	color: white;
+	text-decoration: underline;
 }
 
 .page {
@@ -2027,6 +2040,10 @@ body.ie .ibg img {
 	font-size: 15px;
 }
 
+.mainslider {
+	position: relative;
+}
+
 .mainscreen {
 	min-height: 100vh;
 	position: relative;
@@ -2094,13 +2111,14 @@ body.ie .ibg img {
 }
 .slider__control {
 	position: absolute;
-	left: 20%;
-	width: 100px;
+	left: 0px;
+	top: 0;
+	width: 100%;
 	height: 100px;
 	bottom: 50px;
-	-webkit-transform: translate(-50%, 50%);
-	    -ms-transform: translate(-50%, 50%);
-	        transform: translate(-50%, 50%);
+	-webkit-transform: translate(-50%);
+	    -ms-transform: translate(-50%);
+	        transform: translate(-50%);
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -2111,16 +2129,24 @@ body.ie .ibg img {
 	    -ms-flex-align: center;
 	        align-items: center;
 	z-index: 10;
+	top: 50%;
 }
 
+.control-slider {
+	position: absolute;
+}
 .control-slider__arrow {
-	position: relative;
+	position: absolute;
 	z-index: 100;
-	background: url(/img/icons/p-left.svg) 0 0 no-repeat;
-	width: 14px;
+	background: url(/img/icons/1.svg) 0 0 no-repeat;
+	width: 95%;
 	height: 24px;
 	cursor: pointer;
 	margin: 0px 20px 0px 0px;
+	left: 53%;
+}
+.control-slider__arrow_prew {
+	margin-right: 10px;
 }
 .control-slider__arrow_next {
 	-webkit-transform: rotate(180deg);

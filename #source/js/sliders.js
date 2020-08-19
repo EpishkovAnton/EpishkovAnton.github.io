@@ -9,8 +9,8 @@ if ($('.mainslider').length > 0) {
 		slidesToShow: 1,
 		//asNavFor:'',
 		//appendDots:
-		prevArrow: $('.control-slider__arrow_next'),
-		nextArrow: $('.control-slider__arrow_prew'),
+		prevArrow: $('.control-slider__arrow_prew'),
+		nextArrow: $('.control-slider__arrow_next'),
 		responsive: [{
 			breakpoint: 768,
 			settings: {}
@@ -37,40 +37,7 @@ if ($('.slidertwo').length > 0) {
 }
 
 //SLIDERS
-if ($('.slider-lots__body').length > 0) {
-	$('.slider-lots__body').slick({
-		infinite: true,
-		slidesToShow: 3,
-		slidesToScroll: 1,
 
-		//asNavFor:'',
-		//appendDots:
-		prevArrow: $('.slider-lots__arrow_prev'),
-		nextArrow: $('.slider-lots__arrow_next'),
-		responsive: [{
-				breakpoint: 768,
-				settings: {
-					slidesToShow: 2,
-
-				}
-
-			},
-			{
-
-				breakpoint: 480,
-
-				settings: {
-
-					slidesToShow: 1
-
-				}
-
-			}
-
-
-		]
-	});
-}
 
 
 
