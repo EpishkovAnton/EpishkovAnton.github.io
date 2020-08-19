@@ -2,6 +2,7 @@
     background-color: black;
     display: flex;
     justify-content: center;
+    position: relative;
 
     &__tittle {
         color: white;
@@ -224,6 +225,7 @@
         margin-top: 15px;
         font-family: "hel";
         text-align: center;
+        margin-bottom: 15px;
 
 
 
@@ -240,5 +242,33 @@
 }
 
 //====================================================================================================
+.cookie-block {
+    position: absolute;
+    background-color: #494747;
+    display: none;
+    color: white;
+    font-family: "hel";
+    bottom: 62px;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+
+    button {
+        width: 265px;
+        height: 30px;
+        background-color: white;
+        display: block;
+        margin: 0 auto;
+        font-family: "hel";
+        text-transform: uppercase;
+
+
+
+    }
+}
 
 //====================================================================================================

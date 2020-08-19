@@ -1223,6 +1223,7 @@ body.ie .ibg img {
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
+	position: relative;
 }
 .footer__tittle {
 	color: white;
@@ -1429,6 +1430,7 @@ body.ie .ibg img {
 	margin-top: 15px;
 	font-family: "hel";
 	text-align: center;
+	margin-bottom: 15px;
 }
 .footer__policy span {
 	color: white;
@@ -1436,6 +1438,34 @@ body.ie .ibg img {
 .footer__policy span a {
 	color: white;
 	text-decoration: underline;
+}
+
+.cookie-block {
+	position: absolute;
+	background-color: #494747;
+	display: none;
+	color: white;
+	font-family: "hel";
+	bottom: 62px;
+	width: 100%;
+	right: 0;
+	bottom: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 20px;
+}
+.cookie-block button {
+	width: 265px;
+	height: 30px;
+	background-color: white;
+	display: block;
+	margin: 0 auto;
+	font-family: "hel";
+	text-transform: uppercase;
 }
 
 .page {
