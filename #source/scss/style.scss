@@ -972,3 +972,85 @@ body {
 	font-size: 30px;
 	cursor: pointer;
 }
+
+
+
+
+//</ОСНОВНОЙ БЛОК>====================================================================================================
+
+
+
+.why {
+	background-color: black;
+	padding: 65px 0px 20px 0px;
+	min-height: 600px;
+
+	&__tittle {
+		font-family: 'hel';
+		font-size: 36px;
+		text-align: center;
+		color: white;
+		margin-bottom: 20px;
+
+		@media (max-width:768px) {
+			font-size: 25px;
+			text-transform: uppercase;
+
+		}
+	}
+
+	&__wrapper {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(50%, 50%));
+		grid-template-rows: repeat(2, minmax(100px, auto));
+		gap: 30px;
+		grid-auto-rows: 100px;
+
+		@media (max-width:767px) {
+			grid-template-columns: minmax(100px, auto);
+			grid-template-rows: minmax(150px, auto);
+
+
+		}
+
+	}
+
+	&__item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		@media (max-width:767px) {
+			flex-direction: column;
+
+
+		}
+	}
+}
+
+.container {}
+
+.item-why {
+
+	&__icon {
+		margin-right: 15px;
+
+		@media (max-width:767px) {
+			margin-bottom: 10px;
+		}
+	}
+
+	&__text {
+		color: white;
+		font-family: "hel";
+		text-align: center;
+
+	}
+}
+
+
+
+
+
+
+//</ОСНОВНОЙ БЛОК>====================================================================================================
