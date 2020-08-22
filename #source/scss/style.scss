@@ -981,7 +981,7 @@ body {
 
 
 .why {
-	background-color: black;
+	background: url(/img/monochrome-abstract-contour-line-illustration_53876-80534.jpg) center center/cover no-repeat;
 	padding: 65px 0px 20px 0px;
 	min-height: 600px;
 
@@ -991,17 +991,17 @@ body {
 		text-align: center;
 		color: white;
 		margin-bottom: 20px;
+		text-transform: uppercase;
 
 		@media (max-width:768px) {
 			font-size: 25px;
-			text-transform: uppercase;
 
 		}
 	}
 
 	&__wrapper {
 		display: grid;
-		grid-template-columns: repeat(2, minmax(50%, 50%));
+		grid-template-columns: repeat(2, minmax(48%, 50%));
 		grid-template-rows: repeat(2, minmax(100px, auto));
 		gap: 30px;
 		grid-auto-rows: 100px;
@@ -1043,7 +1043,11 @@ body {
 	&__text {
 		color: white;
 		font-family: "hel";
-		text-align: center;
+		text-align: justify;
+
+		@media (max-width:767px) {
+			text-align: center;
+		}
 
 	}
 }
