@@ -1,5 +1,5 @@
 .footer {
-    background-color: black;
+    background-color: #0d0d0e;
     display: flex;
     justify-content: center;
     position: relative;
@@ -152,7 +152,7 @@
 
 
         &:hover {
-            background-color: black;
+            background-color: #0d0d0e;
             color: white;
             border: solid 1px white;
 
@@ -194,7 +194,7 @@
 }
 
 .input {
-    background-color: black;
+    background-color: #0d0d0e;
     height: 50px;
     border: 1px solid grey;
     color: white;

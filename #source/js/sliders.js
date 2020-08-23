@@ -7,10 +7,11 @@ if ($('.mainslider').length > 0) {
 		dots: true,
 		accessibility: false,
 		slidesToShow: 1,
+		arrows: true,
 		//asNavFor:'',
 		//appendDots:
-		prevArrow: $('.control-slider__arrow_prew'),
-		nextArrow: $('.control-slider__arrow_next'),
+		prevArrow: $('.slider__prev'),
+		nextArrow: $('.slider__next'),
 		responsive: [{
 			breakpoint: 768,
 			settings: {}

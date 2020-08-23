@@ -1216,7 +1216,7 @@ body.ie .ibg img {
 	}
 */
 .footer {
-	background-color: black;
+	background-color: #0d0d0e;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1380,7 +1380,7 @@ body.ie .ibg img {
 	transition: all 0.8s ease 0s;
 }
 .form__btn:hover {
-	background-color: black;
+	background-color: #0d0d0e;
 	color: white;
 	border: solid 1px white;
 }
@@ -1413,7 +1413,7 @@ body.ie .ibg img {
 }
 
 .input {
-	background-color: black;
+	background-color: #0d0d0e;
 	height: 50px;
 	border: 1px solid grey;
 	color: white;
@@ -1761,7 +1761,7 @@ body.ie .ibg img {
 }
 
 .about {
-	background-color: black;
+	background-color: #0d0d0e;
 	display: none;
 	color: white;
 	padding-top: 53px;
@@ -1947,7 +1947,7 @@ body.ie .ibg img {
 	color: white;
 	padding: 65px 0px 0px 0px;
 	position: relative;
-	background-color: black;
+	background-color: #0d0d0e;
 }
 .concept__tittle {
 	font-family: "hel";
@@ -2176,49 +2176,33 @@ body.ie .ibg img {
 		display: none;
 	}
 }
-.slider__control {
+.slider__next {
 	position: absolute;
-	left: 0px;
-	top: 0;
-	width: 100%;
-	height: 100px;
-	bottom: 50px;
-	-webkit-transform: translate(-50%);
-	    -ms-transform: translate(-50%);
-	        transform: translate(-50%);
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	z-index: 10;
+	z-index: 1;
 	top: 50%;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	right: -80px;
 }
-
-.control-slider {
-	position: absolute;
-}
-.control-slider__arrow {
-	position: absolute;
-	z-index: 100;
-	background: url(/img/icons/1.svg) 0 0 no-repeat;
-	width: 95%;
-	height: 24px;
-	cursor: pointer;
-	margin: 0px 20px 0px 0px;
-	left: 53%;
-}
-.control-slider__arrow_prew {
-	margin-right: 10px;
-}
-.control-slider__arrow_next {
+.slider__next img {
+	width: 20%;
 	-webkit-transform: rotate(180deg);
 	    -ms-transform: rotate(180deg);
 	        transform: rotate(180deg);
+}
+.slider__prev {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	left: 30px;
+}
+.slider__prev img {
+	width: 20%;
 }
 
 @media (min-width: 768px) {
@@ -2288,7 +2272,9 @@ body.ie .ibg img {
 }
 
 .why {
-	background: url(/img/monochrome-abstract-contour-line-illustration_53876-80534.jpg) center center/cover no-repeat fixed;
+	/* 	background: url(/img/12.jpg) center center/cover no-repeat fixed;
+	*/
+	background-color: #0d0d0e;
 	padding: 65px 0px 20px 0px;
 	min-height: 600px;
 }
