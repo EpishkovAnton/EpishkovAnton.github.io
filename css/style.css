@@ -7,7 +7,7 @@
 }
 @font-face {
 	font-family: "Montserrat";
-	src: local("Montserrat"), url("/fonts/Montserrat-thin.ttf") format("truetype");
+	src: local("Montserrat"), url("/fonts/Montserrat-Thin.ttf") format("truetype");
 	font-weight: 400;
 	font-style: normal;
 }
@@ -2093,7 +2093,7 @@ body.ie .ibg img {
 	font-family: "Montserrat";
 }
 .item__descr {
-	font-family: "Montserrat";
+	font-family: "hel";
 	margin: 0px 10px 0px 10px;
 	-webkit-box-flex: 1;
 	    -ms-flex: 1 0 auto;
@@ -2102,7 +2102,7 @@ body.ie .ibg img {
 	letter-spacing: 0.5px;
 }
 .item__descr_a {
-	font-family: "hel";
+	font-family: "Montserrat";
 }
 .item__more {
 	font-family: "hel";

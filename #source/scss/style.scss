@@ -22,7 +22,7 @@
 
 @font-face {
 	font-family: 'Montserrat';
-	src: local('Montserrat'), url('/fonts/Montserrat-thin.ttf') format('truetype');
+	src: local('Montserrat'), url('/fonts/Montserrat-Thin.ttf') format('truetype');
 	font-weight: 400;
 	font-style: normal;
 }
@@ -757,14 +757,15 @@ body {
 	}
 
 	&__descr {
-		font-family: 'Montserrat';
+		font-family: 'hel';
 		margin: 0px 10px 0px 10px;
 		flex: 1 0 auto;
 		font-size: 16px;
 		letter-spacing: 0.5px;
 
 		&_a {
-			font-family: 'hel';
+			font-family: 'Montserrat';
+
 
 		}
 
