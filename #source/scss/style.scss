@@ -7,13 +7,7 @@
 //<Подключаем шрифты>=======================================================================================
 
 //</Подключаем шрифты>=======================================================================================
-@font-face {
-	font-family: 'Mpfdintextcondpro-medium';
-	font-weight: normal;
-	font-style: normal;
-	src: url('/fonts/pfdintextcondpro-medium.eot');
-	src: local('☺'), url('/fonts/pfdintextcondpro-medium.woff') format('woff'), url('/fonts/pfdintextcondpro-medium.ttf') format('truetype'), url('/fonts/pfdintextcondpro-medium.svg') format('svg');
-}
+
 
 
 
@@ -25,6 +19,15 @@
 
 	src: local('☺'), url('/fonts/HelveticaNeueCyr-Thin.woff') format('woff'), url('/fonts/HelveticaNeueCyr-Thin.ttf') format('truetype');
 }
+
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat'), url('/fonts/Montserrat-thin.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
 
 
 
@@ -619,7 +622,7 @@ body {
 	}
 
 	&__txt {
-		font-family: 'hel';
+		font-family: 'Montserrat';
 		font-size: 20px;
 		margin: 0px 0px 10px 10px;
 		text-align: center;
@@ -746,14 +749,24 @@ body {
 		font-size: 20px;
 		margin: 0px 0px 10px 10px;
 
+		&_a {
+			font-family: 'Montserrat';
+
+		}
+
 	}
 
 	&__descr {
-		font-family: 'hel';
+		font-family: 'Montserrat';
 		margin: 0px 10px 0px 10px;
 		flex: 1 0 auto;
 		font-size: 16px;
 		letter-spacing: 0.5px;
+
+		&_a {
+			font-family: 'hel';
+
+		}
 
 	}
 

@@ -1,16 +1,15 @@
 @charset "UTF-8";
 @font-face {
-	font-family: "Mpfdintextcondpro-medium";
-	font-weight: normal;
-	font-style: normal;
-	src: url("/fonts/pfdintextcondpro-medium.eot");
-	src: local("☺"), url("/fonts/pfdintextcondpro-medium.woff") format("woff"), url("/fonts/pfdintextcondpro-medium.ttf") format("truetype"), url("/fonts/pfdintextcondpro-medium.svg") format("svg");
-}
-@font-face {
 	font-family: "hel";
 	font-weight: normal;
 	font-style: normal;
 	src: local("☺"), url("/fonts/HelveticaNeueCyr-Thin.woff") format("woff"), url("/fonts/HelveticaNeueCyr-Thin.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Montserrat";
+	src: local("Montserrat"), url("/fonts/Montserrat-thin.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
 }
 * {
 	padding: 0px;
@@ -1961,7 +1960,7 @@ body.ie .ibg img {
 	}
 }
 .concept__txt {
-	font-family: "hel";
+	font-family: "Montserrat";
 	font-size: 20px;
 	margin: 0px 0px 10px 10px;
 	text-align: center;
@@ -2090,14 +2089,20 @@ body.ie .ibg img {
 	font-size: 20px;
 	margin: 0px 0px 10px 10px;
 }
+.item__tittle_a {
+	font-family: "Montserrat";
+}
 .item__descr {
-	font-family: "hel";
+	font-family: "Montserrat";
 	margin: 0px 10px 0px 10px;
 	-webkit-box-flex: 1;
 	    -ms-flex: 1 0 auto;
 	        flex: 1 0 auto;
 	font-size: 16px;
 	letter-spacing: 0.5px;
+}
+.item__descr_a {
+	font-family: "hel";
 }
 .item__more {
 	font-family: "hel";
