@@ -1271,7 +1271,7 @@ body.ie .ibg img {
 }
 @media (max-width: 768px) {
 	.footer__rights {
-		font-size: 12px;
+		font-size: 10px;
 	}
 }
 .footer__tel {
@@ -1752,7 +1752,7 @@ body.ie .ibg img {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0);
 }
 .video-bg__content h1 {
 	font-family: "hel";
@@ -2177,6 +2177,8 @@ body.ie .ibg img {
 	}
 }
 .slider__next {
+	width: 30px;
+	height: 30px;
 	position: absolute;
 	z-index: 1;
 	top: 50%;
@@ -2184,25 +2186,27 @@ body.ie .ibg img {
 	-webkit-transform: translateY(-50%);
 	    -ms-transform: translateY(-50%);
 	        transform: translateY(-50%);
-	right: -80px;
+	right: 15px;
 }
 .slider__next img {
-	width: 20%;
+	width: 100%;
 	-webkit-transform: rotate(180deg);
 	    -ms-transform: rotate(180deg);
 	        transform: rotate(180deg);
 }
 .slider__prev {
+	width: 30px;
+	height: 30px;
 	position: absolute;
 	z-index: 1;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	    -ms-transform: translateY(-50%);
 	        transform: translateY(-50%);
-	left: 30px;
+	left: 15px;
 }
 .slider__prev img {
-	width: 20%;
+	width: 100%;
 }
 
 @media (min-width: 768px) {
