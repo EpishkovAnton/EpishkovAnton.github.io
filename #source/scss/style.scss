@@ -513,6 +513,8 @@ body {
 
 		&_sl {
 			flex-direction: column;
+			align-items: center;
+			margin-top: 30px;
 		}
 
 
@@ -535,7 +537,7 @@ body {
 
 		&_sl {
 			font-size: 30px;
-			padding: 0px 0px 0px 52px;
+			padding: 0px 0px 0px 49px;
 		}
 
 		&_slt {
@@ -550,7 +552,7 @@ body {
 
 		&_slk {
 			font-size: 30px;
-			padding: 0px 0px 0px 68px;
+			padding: 0px 0px 0px 153px;
 		}
 
 
@@ -567,6 +569,13 @@ body {
 			padding: 0px 0px 0px 25px;
 
 		}
+
+		&_sli {
+			font-size: 30px;
+			padding: 0px 0px 0px 25px;
+
+		}
+
 
 	}
 
@@ -593,8 +602,7 @@ body {
 		display: block;
 		color: white;
 		text-align: left;
-		font-size: 15px;
-		margin-left: 25px;
+		font-size: 10px;
 	}
 
 }
@@ -631,7 +639,7 @@ body {
 
 	&__txt {
 		font-family: 'Montserrat';
-		font-size: 20px;
+		font-size: 19px;
 		margin: 0px 0px 10px 10px;
 		text-align: center;
 	}

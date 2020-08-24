@@ -1897,6 +1897,10 @@ body.ie .ibg img {
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-top: 30px;
 }
 .about__block_sl {
 	display: -webkit-box;
@@ -1914,7 +1918,7 @@ body.ie .ibg img {
 }
 .about__number_sl {
 	font-size: 30px;
-	padding: 0px 0px 0px 52px;
+	padding: 0px 0px 0px 49px;
 }
 .about__number_slt {
 	font-size: 30px;
@@ -1926,7 +1930,7 @@ body.ie .ibg img {
 }
 .about__number_slk {
 	font-size: 30px;
-	padding: 0px 0px 0px 68px;
+	padding: 0px 0px 0px 153px;
 }
 .about__descr {
 	font-size: 30px;
@@ -1935,6 +1939,10 @@ body.ie .ibg img {
 	font-family: "hel";
 }
 .about__descr_sl {
+	font-size: 30px;
+	padding: 0px 0px 0px 25px;
+}
+.about__descr_sli {
 	font-size: 30px;
 	padding: 0px 0px 0px 25px;
 }
@@ -1956,8 +1964,7 @@ body.ie .ibg img {
 	display: block;
 	color: white;
 	text-align: left;
-	font-size: 15px;
-	margin-left: 25px;
+	font-size: 10px;
 }
 
 .concept {
@@ -1979,7 +1986,7 @@ body.ie .ibg img {
 }
 .concept__txt {
 	font-family: "Montserrat";
-	font-size: 20px;
+	font-size: 19px;
 	margin: 0px 0px 10px 10px;
 	text-align: center;
 }
