@@ -1249,13 +1249,19 @@ body.ie .ibg img {
 	        flex-direction: column;
 }
 .footer__logo {
-	margin-top: 50px;
+	display: block;
+	margin: 0 auto;
 	text-align: center;
+	width: 350px;
+}
+.footer__logo img {
+	width: 100%;
 }
 @media (max-width: 768px) {
 	.footer__logo {
 		margin: 0 auto;
 		width: 250px;
+		height: 70px;
 	}
 	.footer__logo img {
 		width: 100%;
@@ -1281,12 +1287,17 @@ body.ie .ibg img {
 	letter-spacing: 2px;
 }
 .footer__mail {
-	margin: 30px 0px 30px 0px;
+	margin: 15px 0px 30px 0px;
 	color: white;
 	text-align: center;
 	font-size: 20px;
 	font-family: "hel";
 	letter-spacing: 2px;
+}
+@media (max-width: 768px) {
+	.footer__mail {
+		margin: 30px 0px 30px 0px;
+	}
 }
 
 .social {
@@ -1426,7 +1437,7 @@ body.ie .ibg img {
 }
 
 .footer__policy {
-	margin: 15px 10px 15px 10px;
+	margin: 15px 10px 30px 10px;
 	font-family: "hel";
 	text-align: center;
 }
@@ -1903,7 +1914,7 @@ body.ie .ibg img {
 }
 .about__number_sl {
 	font-size: 30px;
-	padding: 0px 0px 0px 25px;
+	padding: 0px 0px 0px 52px;
 }
 .about__number_slt {
 	font-size: 30px;
@@ -1915,7 +1926,7 @@ body.ie .ibg img {
 }
 .about__number_slk {
 	font-size: 30px;
-	padding: 0px 0px 0px 50px;
+	padding: 0px 0px 0px 68px;
 }
 .about__descr {
 	font-size: 30px;
@@ -1935,11 +1946,18 @@ body.ie .ibg img {
 }
 .about__value_sl {
 	font-size: 30px;
-	padding: 0px 0px 0px 15px;
+	padding: 0px 0px 0px 3px;
 }
 .about__value_sln {
 	font-size: 30px;
 	padding: 0px 0px 0px 10px;
+}
+.about__disc {
+	display: block;
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-left: 25px;
 }
 
 .concept {
@@ -2155,6 +2173,9 @@ body.ie .ibg img {
 	font-size: 36px;
 	text-transform: uppercase;
 	text-align: center;
+}
+.mainscreen__tittle_slide {
+	font-size: 25px;
 }
 .mainscreen__text li {
 	list-style: disc;

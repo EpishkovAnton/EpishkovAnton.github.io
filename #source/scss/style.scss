@@ -535,7 +535,7 @@ body {
 
 		&_sl {
 			font-size: 30px;
-			padding: 0px 0px 0px 25px;
+			padding: 0px 0px 0px 52px;
 		}
 
 		&_slt {
@@ -550,7 +550,7 @@ body {
 
 		&_slk {
 			font-size: 30px;
-			padding: 0px 0px 0px 50px;
+			padding: 0px 0px 0px 68px;
 		}
 
 
@@ -579,7 +579,7 @@ body {
 
 		&_sl {
 			font-size: 30px;
-			padding: 0px 0px 0px 15px;
+			padding: 0px 0px 0px 3px;
 
 		}
 
@@ -587,6 +587,14 @@ body {
 			font-size: 30px;
 			padding: 0px 0px 0px 10px;
 		}
+	}
+
+	&__disc {
+		display: block;
+		color: white;
+		text-align: left;
+		font-size: 15px;
+		margin-left: 25px;
 	}
 
 }
@@ -842,6 +850,10 @@ body {
 		font-size: 36px;
 		text-transform: uppercase;
 		text-align: center;
+
+		&_slide {
+			font-size: 25px;
+		}
 	}
 
 	&__text {
