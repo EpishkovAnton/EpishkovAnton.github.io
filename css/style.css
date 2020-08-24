@@ -1930,7 +1930,7 @@ body.ie .ibg img {
 }
 .about__number_slk {
 	font-size: 30px;
-	padding: 0px 0px 0px 153px;
+	padding: 0px 0px 0px 0px;
 }
 .about__descr {
 	font-size: 30px;
@@ -1985,7 +1985,7 @@ body.ie .ibg img {
 	}
 }
 .concept__txt {
-	font-family: "Montserrat";
+	font-family: "hel";
 	font-size: 19px;
 	margin: 0px 0px 10px 10px;
 	text-align: center;
@@ -2115,7 +2115,7 @@ body.ie .ibg img {
 	margin: 0px 0px 10px 10px;
 }
 .item__tittle_a {
-	font-family: "Montserrat";
+	font-family: "hel";
 }
 .item__descr {
 	font-family: "hel";
@@ -2127,7 +2127,7 @@ body.ie .ibg img {
 	letter-spacing: 0.5px;
 }
 .item__descr_a {
-	font-family: "Montserrat";
+	font-family: "hel";
 }
 .item__more {
 	font-family: "hel";
