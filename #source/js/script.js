@@ -339,7 +339,7 @@ $(window).scroll(function () {
 });
 
 
-for (let i of document.querySelectorAll(".about__number")) {
+/* for (let i of document.querySelectorAll(".about__number")) {
 
 	let numberTop = i.getBoundingClientRect().top,
 		start = +i.innerHTML,
@@ -356,7 +356,7 @@ for (let i of document.querySelectorAll(".about__number")) {
 			}, 100);
 		}
 	});
-}
+} */
 
 
 
